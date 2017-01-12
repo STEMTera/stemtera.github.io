@@ -1,0 +1,88 @@
+---
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+{% include header.html %}
+</head>
+<body>
+<!--
+    <nav><ul>
+        {% for node in site.posts reversed %}
+            {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+            <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+        {% endfor %}
+    </ul></nav>
+-->
+
+    <!-- Cover Page -->
+    <div id="page1">
+    {% capture covertext %} {% include cover.md %} {% endcapture %}
+    {{ covertext | markdownify }}
+    </div>
+    <div class="page-break"></div>
+
+    <!-- Preface -->
+    <div id="page2">
+    {% capture prefacetext %} {% include preface.md %} {% endcapture %}
+    {{ prefacetext | markdownify }}
+    </div>
+    <div class="page-break"></div>
+
+    <!-- TOC -->
+    <div id="page3" class="toc">
+    <div class="toc-title">
+    <h1>Table of Content</h1>
+    </div>
+    <div class="toc-content">
+    <ul>
+    {% for page in site.categories.[page.category] reversed %}
+    {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+        {% if page.chapter %}
+            </ul>
+            <a href="#page{{ forloop.index | plus: 3 }}"><h3>CHAPTER {{ page.chapter }} - {{ page.title }}</h3></a>
+            <ul>
+        {% elsif page.title %}
+             <a href="#page{{ forloop.index | plus: 3 }}"><li>{{ page.title }}</li></a>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    </div>
+    </div>
+    <div class="page-break"></div>
+    <!-- Contents -->
+    {% for page in site.categories.[page.category] reversed %}
+      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      <div id="page{{ forloop.index | plus: 3 }}" class="{{ page.style }}">
+        {% if page.icon %}
+        <div class="subtlecircle sectiondivider imaged">
+          <img src="{{page.icon}}" alt="section icon" />
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% elsif page.fa-icon %}
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% endif %}
+          {{ page.content }}
+      </div>
+    {% if forloop.last == true %}
+    {% else %}
+        <div class="page-break"></div>
+    {% endif %}
+    {% endfor %}
+
+    <!-- Footer --> 
+    <div id="footer" class="footer">
+        {% capture foottext %} {% include footer.md %} {% endcapture %}
+        {{ foottext | markdownify }}
+    </div> 
+{% include analytics.html %}
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

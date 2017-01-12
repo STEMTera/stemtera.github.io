@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+html { 
+	color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+	font-size: 1.1vw; 
+} 
+
+h1 { 
+	font-size: 2.7vw;
+} 
+
+h2 { 
+	font-size: 2vw; 
+} 
+
+h3 { 
+	font-size: 1.7w; 
+} 
+
+h4 {
+	font-size: 1.5vw;
+	font-style: italic;
+}
+
+h1,h2,h3,h4{
+	margin-top: 0.7vw;
+	margin-bottom: 0.7vw;
+}
+
+p {
+	margin-top: 0.8vw;
+	margin-bottom: 0.8vw;
+}
+
+img {
+    /* border: 1px solid #333; */
+	margin-top: .8vw;
+	margin-bottom: .8vw;
+	margin-left: 1vw;
+	margin-bottom: 1vw;
+}
+
+img.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.left {
+	margin-left: 3vw;
+	margin-right: auto;
+	float: left;
+}
+
+img.right {
+	margin-left: auto;
+	margin-right: 3vw;
+	float: right;
+}
+
+img.full-w {
+    width: 91vw;
+}
+
+img.three-quarter-w{
+	height: 60vw;
+}
+
+img.half-w{
+	width: 42vw;
+}
+
+img.quarter-w {
+	width: 23vw;
+}
+
+img.eighth-w {
+	width: 12vw;
+}
+
+img.sixteenth-w {
+	width: 6vw;
+}
+
+img.full-h {
+    /* border: 1px solid #00ff00; */
+	max-height: 100%;
+    max-width: 100%;
+    height: 88vh; 
+}
+
+img.three-quarter-h {
+	height: 60vh;
+}
+
+img.half-h{
+	height: 45vh;
+}
+
+img.quarter-h {
+	height: 23vh;
+}
+
+img.eighth-h {
+	height: 12vh;
+}
+
+img.sixteenth-h {
+	height: 6vh;
+}
+
+div {
+	/* border: 1px solid #f00;  */
+	height: 95vh;
+	margin-left: 1vw;
+	margin-right: 1vw;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+div.titlepage {
+  page: blank;
+}
+
+div.three-col-page {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 2vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2vw; /* Firefox */
+    column-gap: 2vw;
+}
+
+div.two-col-page {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 2.5vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2.5vw; /* Firefox */
+    column-gap: 2.5vw;
+}
+
+div.one-col-third-page {
+    height: 33vh;
+}
+
+div.two-col-third-page {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 2.5vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2.5vw; /* Firefox */
+    column-gap: 2.5vw;
+	height: 33vh;
+}
+
+div.two-col-two-third-page {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	height: 66vh;
+}
+
+.toc-title {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    height: 20vh;
+    /* border: 1px solid #000; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.toc-content {
+    height: 74vh;
+    /* border: 1px solid #000; */
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 2.5vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2.5vw; /* Firefox */
+    column-gap: 2.5vw;
+}
+
+.toc a:hover, .toc a:visited, .toc a:link, .toc a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.preface {
+    text-align: center;
+    font-size: 0.7vw;
+    margin-top: 68vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35vw;
+}
+
+@media screen {
+    .page-break { 
+        height: 2.1vw; 
+        margin-bottom:13px;
+        
+    }
+
+    .page-break:after{
+        content: "\f107";
+        font-family: FontAwesome;
+        text-decoration: none;
+        z-index: 1;
+        display: block;
+        text-align: center;
+        font-size: 2vw;
+    }
+    .footer { 
+        /* border: 1px dotted #000; */
+        height: 6vh; 
+        font-size: 0.7vw; 
+        margin-top: -8vh;
+        text-align: right;
+    }
+}
+
+@media print {
+    * {margin: 0;}
+    .page-break { height:0; page-break-after:always; margin:0 !important; border-top:none; }
+    .footer { display : none; }
+    @page { size: A5 landscape; margin: 10mm 5mm 10mm 5mm; }
+    html, body {height: 99%;}
+    div { 
+        height: 100%;
+    }
+}
+
