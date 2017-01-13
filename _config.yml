@@ -16,6 +16,7 @@ twitter_username: stemtera
 domain: stemtera.com
 url: http://learn.stemtera.com
 image: http://learn.stemtera.com/img/banner.jpg
+img_path: /img
 
 ### template colors, used site-wide via css ###
 colors:
