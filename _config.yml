@@ -9,10 +9,13 @@ lsi: false
 markdown: kramdown
 
 ### content configuration ###
-title:       "STEMTera Breadboard Beginner's Guide"
-keywords:    "stemtera, breadboard, arduino, stemtera breadboard"
-description: "Learn Basic Electronics with STEMTera Breadboard - Arduino Compatible built-in breadboard."
+title:       "Learn STEMTera&trade; Breadboard."
+description: "Learn Basic Electronics and Arduino with STEMTera&trade; Breadboard."
 google_analytics_key: 
+twitter_username: stemtera
+domain: stemtera.com
+url: http://learn.stemtera.com
+image: http://learn.stemtera.com/img/banner.jpg
 
 ### template colors, used site-wide via css ###
 colors:

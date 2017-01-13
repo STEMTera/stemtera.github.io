@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
@@ -9,26 +11,26 @@
         <link rel="manifest" href="/manifest.json">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="theme-color" content="#ffffff">
-        <meta property="og:url" content="http://learn.stemtera.com" />
+        <meta property="og:url" content="{{ site.url }}" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Learn STEMTerai&trade; Breadboard" />
-        <meta property="og:description" content="Learn Arduino with STEMTera&trade; Breadboard." />
-        <meta property="og:image" content="http://learn.stemtera.com/img/banner.jpg" />
+        <meta property="og:title" content="{{ site.title }}" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <meta property="og:image" content="{{ site.image }}" />
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@stemtera">
-        <meta name="twitter:title" content="Learn STEMTera&trade; Breadboard">
-        <meta name="twitter:description" content="Learn Arduino with STEMTera&trade; Breadboard.">
-        <meta name="twitter:creator" content="@stemtera">
-        <meta name="twitter:image" content="http://learn.stemtera.com/img/banner.jpg">
+        <meta name="twitter:site" content="@{{ site.twitter_username }}">
+        <meta name="twitter:title" content="{{ site.title }}">
+        <meta name="twitter:description" content="{{ site.description }}">
+        <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+        <meta name="twitter:image" content="{{ site.image }}">
         <meta name="twitter:domain" content="stemtera.com"> 
-        <meta name="description" content="Learn Arduino with STEMTera&trade; Breadboard.">
+        <meta name="description" content="{{ site.description }}">
         <script type="text/javascript">
             window.location.href = "/begin"
         </script>
-        <title>Page Redirection</title>
+        <title>{{ site.title }} Redirection</title>
     </head>
     <body>
         <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='/begin'>STEMTera Breaboard Beginner's Guide</a>.
+        If you are not redirected automatically, follow this <a href='/begin'>STEMTera&trade; Breaboard Beginner's Guide</a>.
     </body>
 </html>
