@@ -11,7 +11,7 @@ markdown: kramdown
 ### content configuration ###
 title:       "Learn STEMTera&trade; Breadboard."
 description: "Learn Basic Electronics and Arduino with STEMTera&trade; Breadboard."
-google_analytics_key: 
+google_analytics_key: UA-84604008-5
 twitter_username: stemtera
 facebook_app_id: 1213473132073226
 domain: stemtera.com
