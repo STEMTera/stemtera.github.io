@@ -10,14 +10,19 @@ body {
 
 h1 { 
 	font-size: 2.7vw;
+    color: #f86d22;
 } 
 
 h2 { 
 	font-size: 2vw; 
 } 
 
+span.titlenumber {
+    color: #f86d22;
+}
+
 h3 { 
-	font-size: 1.7w; 
+	font-size: 1.7vw; 
 } 
 
 h4 {

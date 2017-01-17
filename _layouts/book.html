@@ -32,7 +32,7 @@
     <!-- TOC -->
     <div id="page3" class="toc">
     <div class="toc-title">
-    <h1>Table of Content</h1>
+    <h1>Contents</h1>
     </div>
     <div class="toc-content">
     <ul>
@@ -40,7 +40,7 @@
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
         {% if page.chapter %}
             </ul>
-            <a href="#page{{ forloop.index | plus: 3 }}"><h3>CHAPTER {{ page.chapter }} - {{ page.title }}</h3></a>
+            <a href="#page{{ forloop.index | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title }}</h3></a>
             <ul>
         {% elsif page.title %}
              <a href="#page{{ forloop.index | plus: 3 }}"><li>{{ page.title }}</li></a>
@@ -54,19 +54,9 @@
     {% for page in site.categories.[page.category] reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="page{{ forloop.index | plus: 3 }}" class="{{ page.style }}">
-        {% if page.icon %}
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
+        {% if page.chapter %}
+            <h1>{{ page.chapter }}. {{ page.title }}</h1>
         {% elsif page.fa-icon %}
-        <div class="subtlecircle sectiondivider faicon">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
-          </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
         {% endif %}
           {{ page.content }}
       </div>
