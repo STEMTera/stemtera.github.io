@@ -22,11 +22,11 @@ span.titlenumber {
 }
 
 h3 { 
-	font-size: 1.7vw; 
+	font-size: 1.5vw; 
 } 
 
 h4 {
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	font-style: italic;
 }
 
@@ -36,16 +36,16 @@ h1,h2,h3,h4{
 }
 
 p {
-	margin-top: 0.8vw;
-	margin-bottom: 0.8vw;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
 }
 
 img {
     /* border: 1px solid #333; */
-	margin-top: .8vw;
-	margin-bottom: .8vw;
+	margin-top: 0vh;
+	margin-bottom: 3vh;
 	margin-left: 1vw;
-	margin-bottom: 1vw;
+	margin-right: 1vw;
 }
 
 img.center{
@@ -55,14 +55,12 @@ img.center{
 }
 
 img.left {
-	margin-left: 3vw;
-	margin-right: auto;
 	float: left;
 }
 
 img.right {
 	margin-left: auto;
-	margin-right: 3vw;
+	margin-right: 1vw;
 	float: right;
 }
 
@@ -242,3 +240,55 @@ div.two-col-two-third-page {
     }
 }
 
+blockquote {
+font-family: Georgia, serif;
+font-style: italic;
+width: 70%;
+margin: 3vh 0 1vh 3vw;
+padding: 0.5vh 2vw;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+
+blockquote:before {
+display: block;
+padding-left: 0.5vw;
+content: "\201C";
+font-size: 5vw;
+position: absolute;
+left: -1vw;
+top: -1vw;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 0.6vw;
+display: block;
+margin-top: 0.5vh;
+text-align: right;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+ul {
+    list-style: none;
+    padding: 0.8vw;
+    margin:0;
+}
+
+li { 
+    padding-left: 2em; 
+    text-indent: -1.1em;
+}
+
+li:before {
+    content: "\f111";
+    font-size: 0.7vw;
+    font-family: FontAwesome;
+    color: #f86d22; 
+    margin-right: 1em;
+}

@@ -18,14 +18,14 @@
     <!-- Cover Page -->
     <div id="page1">
     {% capture covertext %} {% include cover.md %} {% endcapture %}
-    {{ covertext | markdownify }}
+    {{ covertext | markdownify | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}
     </div>
     <div class="page-break"></div>
 
     <!-- Preface -->
     <div id="page2">
     {% capture prefacetext %} {% include preface.md %} {% endcapture %}
-    {{ prefacetext | markdownify }}
+    {{ prefacetext | markdownify | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}
     </div>
     <div class="page-break"></div>
 
@@ -38,12 +38,17 @@
     <ul>
     {% for page in site.categories.[page.category] reversed %}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+    {% assign pagenumber = forloop.index %}
         {% if page.chapter %}
             </ul>
-            <a href="#page{{ forloop.index | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title }}</h3></a>
+            <a href="#page{{ pagenumber | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}</h3></a>
             <ul>
-        {% elsif page.title %}
-             <a href="#page{{ forloop.index | plus: 3 }}"><li>{{ page.title }}</li></a>
+        {% endif %}
+        {% for contents in page.contents %}
+            <a href="#page{{ pagenumber | plus: 3 }}"><li>{{ contents | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}</li></a>
+        {% endfor %}
+        {% if page.chapter =="" %}
+            </ul>
         {% endif %}
     {% endfor %}
     </ul>
@@ -55,10 +60,10 @@
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="page{{ forloop.index | plus: 3 }}" class="{{ page.style }}">
         {% if page.chapter %}
-            <h1>{{ page.chapter }}. {{ page.title }}</h1>
+            <h1>{{ page.chapter }}. {{ page.title | replace: '(STMB)', 'STEMTera&trade; Breadboard' }}</h1>
         {% elsif page.fa-icon %}
         {% endif %}
-          {{ page.content }}
+          {{ page.content | replace: '(STMB)', 'STEMTera&trade; Breadboard' }}
       </div>
     {% if forloop.last == true %}
     {% else %}
