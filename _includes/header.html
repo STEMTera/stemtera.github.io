@@ -15,16 +15,16 @@
 <meta name="theme-color" content="#ffffff">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:title" content="{{ page.title | replace: site.stmb_key , site.stmb }}" />
+<meta property="og:description" content="{{ page.description | replace: site.stmb_key , site.stmb }}" />
 <meta property="og:image" content="{{ site.url }}{{ site.img_path }}/{{ page.category }}/{{ page.cover_image }}" />
 <meta property="fb:app_id" content="{{ site.facebook_app_id }}"/>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:title" content="{{ page.title | replace: site.stmb_key , site.stmb }}">
+<meta name="twitter:description" content="{{ page.description | replace: site.stmb_key , site.stmb }}">
 <meta name="twitter:creator" content="@{{ page.twitter_username }}">
 <meta name="twitter:image" content="{{ site.url }}{{ site.img_path }}/{{ page.category }}/{{ page.cover_image }}">
 <meta name="twitter:domain" content="{{ site.domain }}">
-<meta name="description" content="{{ page.description }}">
-<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description | replace: site.stmb_key , site.stmb }}">
+<title>{{ page.title | replace: site.stmb_key , site.stmb }}</title>

@@ -18,14 +18,14 @@
     <!-- Cover Page -->
     <div id="page1">
     {% capture covertext %} {% include cover.md %} {% endcapture %}
-    {{ covertext | markdownify | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}
+    {{ covertext | markdownify | replace: site.stmb_key , site.stmb }}
     </div>
     <div class="page-break"></div>
 
     <!-- Preface -->
     <div id="page2">
     {% capture prefacetext %} {% include preface.md %} {% endcapture %}
-    {{ prefacetext | markdownify | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}
+    {{ prefacetext | markdownify | replace: site.stmb_key, site.stmb }}
     </div>
     <div class="page-break"></div>
 
@@ -41,11 +41,11 @@
     {% assign pagenumber = forloop.index %}
         {% if page.chapter %}
             </ul>
-            <a href="#page{{ pagenumber | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}</h3></a>
+            <a href="#page{{ pagenumber | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title | replace: site.stmb_key , site.stmb }}</h3></a>
             <ul>
         {% endif %}
         {% for contents in page.contents %}
-            <a href="#page{{ pagenumber | plus: 3 }}"><li>{{ contents | replace: '(STMB)', 'STEMTera&trade; Breadboard'}}</li></a>
+            <a href="#page{{ pagenumber | plus: 3 }}"><li>{{ contents | replace: site.stmb_key , site.stmb }}</li></a>
         {% endfor %}
         {% if page.chapter =="" %}
             </ul>
@@ -60,10 +60,10 @@
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="page{{ forloop.index | plus: 3 }}" class="{{ page.style }}">
         {% if page.chapter %}
-            <h1>{{ page.chapter }}. {{ page.title | replace: '(STMB)', 'STEMTera&trade; Breadboard' }}</h1>
+            <h1>{{ page.chapter }}. {{ page.title | replace: site.stmb_key , site.stmb }}</h1>
         {% elsif page.fa-icon %}
         {% endif %}
-          {{ page.content | replace: '(STMB)', 'STEMTera&trade; Breadboard' }}
+          {{ page.content | replace: site.stmb_key , site.stmb }}
       </div>
     {% if forloop.last == true %}
     {% else %}
