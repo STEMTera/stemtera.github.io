@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans: 400,600');
 html { 
 	color: #333;
     font-family: 'Open Sans', sans-serif;
@@ -11,6 +11,8 @@ body {
 h1 { 
 	font-size: 2.7vw;
     color: #f86d22;
+    text-shadow: 2px 2px 2px #bbbbbb;
+    text-transform: uppercase;
 } 
 
 h2 { 
@@ -37,13 +39,13 @@ h1,h2,h3,h4{
 
 p {
 	margin-top: 2vh;
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 }
 
 img {
     /* border: 1px solid #333; */
 	margin-top: 0vh;
-	margin-bottom: 3vh;
+	margin-bottom: 0vh;
 	margin-left: 1vw;
 	margin-right: 1vw;
 }
@@ -125,6 +127,10 @@ div {
     column-count: 1;
 }
 
+div.fullpage {
+    height: 95vh;
+}
+
 div.titlepage {
   page: blank;
 }
@@ -178,6 +184,12 @@ div.two-col-two-third-page {
     vertical-align: middle;
 }
 
+.toc-title p {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+
 .toc-content {
     height: 74vh;
     /* border: 1px solid #000; */
@@ -197,7 +209,7 @@ div.two-col-two-third-page {
 
 .preface {
     text-align: center;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
     margin-top: 68vh;
     margin-right: auto;
     margin-left: auto;
@@ -206,9 +218,11 @@ div.two-col-two-third-page {
 
 @media screen {
     .page-break { 
+        border-style: dashed hidden hidden hidden;
+        border-width: 1px;
+        border-color: #aaa;
         height: 2.1vw; 
         margin-bottom:13px;
-        
     }
 
     .page-break:after{
@@ -219,11 +233,12 @@ div.two-col-two-third-page {
         display: block;
         text-align: center;
         font-size: 2vw;
+        margin-top: -1.5vh;
     }
     .footer { 
         /* border: 1px dotted #000; */
-        height: 6vh; 
-        font-size: 0.7vw; 
+        height: 7vh; 
+        font-size: 0.6vw; 
         margin-top: -8vh;
         text-align: right;
     }
