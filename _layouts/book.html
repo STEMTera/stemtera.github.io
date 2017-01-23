@@ -38,39 +38,51 @@
     </div>
     <div class="toc-content">
     <ul>
-    {% for page in site.categories.[page.category] reversed %}
-    {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-    {% assign pagenumber = forloop.index %}
-        {% if page.chapter %}
+
+    {% assign pagenumber = 0  %}
+    {% for post in site.categories.[page.category] reversed %}
+    {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+    {% if post.lang == page.lang %}
+        {% assign pagenumber = pagenumber | plus: 1 %}
+        {% if post.chapter %}
             </ul>
-            <a href="#page{{ pagenumber | plus: 3 }}"><h3><span class="titlenumber">{{ page.chapter }}.</span>  {{ page.title | replace: site.stmb_key , site.stmb }}</h3></a>
+            <a href="#page{{ pagenumber | plus: 3 }}"><h3><span class="titlenumber">{{ post.chapter }}.</span>  {{ post.title | replace: site.stmb_key , site.stmb }}</h3></a>
             <ul>
         {% endif %}
-        {% for contents in page.contents %}
+        {% for contents in post.contents %}
         <li><a href="#page{{ pagenumber | plus: 3 }}">{{ contents | replace: site.stmb_key , site.stmb }}</a></li>
         {% endfor %}
-        {% if page.chapter =="" %}
+        {% if post.chapter =="" %}
             </ul>
         {% endif %}
+    {% endif %}
     {% endfor %}
     </ul>
     </div>
     </div>
+
     <div class="page-break"></div>
     <!-- Contents -->
-    {% for page in site.categories.[page.category] reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="page{{ forloop.index | plus: 3 }}" class="{{ page.style }}">
-        {% if page.chapter %}
-            <h1>{{ page.chapter }}. {{ page.title | replace: site.stmb_key , site.stmb }}</h1>
-        {% elsif page.fa-icon %}
+    {% assign pagenumber = 0  %}
+
+    {% for post in site.categories.[page.category] reversed %}
+      {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+        {% if post.lang ==  page.lang %}
+            {% assign pagenumber = pagenumber | plus: 1 %}
+
+            <div id="page{{ pagenumber | plus: 3 }}" class="{{ post.style }}">
+    
+            {% if post.chapter %}
+                <h1>{{ post.chapter }}. {{ post.title | replace: site.stmb_key , site.stmb }}</h1>
+            {% elsif post.fa-icon %}
+            {% endif %}
+            {{ post.content | replace: site.stmb_key , site.stmb }}
+            </div>
+            {% if forloop.last == true %}
+            {% else %}
+                <div class="page-break"></div>
+            {% endif %}
         {% endif %}
-          {{ page.content | replace: site.stmb_key , site.stmb }}
-      </div>
-    {% if forloop.last == true %}
-    {% else %}
-        <div class="page-break"></div>
-    {% endif %}
     {% endfor %}
 
     <!-- Footer -->  
