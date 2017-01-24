@@ -118,7 +118,7 @@ img.sixteenth-h {
 }
 
 div {
-	/* border: 1px solid #f00;  */
+	/* border: 1px solid #f00;   */
 	height: 95vh;
 	margin-left: 1vw;
 	margin-right: 1vw;
@@ -242,6 +242,14 @@ div.two-col-two-third-page {
         margin-top: -8vh;
         text-align: right;
     }
+
+    .sidebar {
+        width: 5vw;
+        position: fixed;
+        left: 92vw;
+        top: 49vh;
+        margin: 0 0 0 110px;
+    }
 }
 
 @media print {
@@ -253,6 +261,7 @@ div.two-col-two-third-page {
     div { 
         height: 100%;
     }
+    .sidebar { display: none; }
 }
 
 blockquote {
@@ -371,5 +380,3 @@ li:before {
     text-decoration: none;
     color: inherit;
 }
-
-
