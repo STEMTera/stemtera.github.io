@@ -324,8 +324,8 @@ li:before {
     text-align:center;
     font-variant:normal;
     text-transform:none;
-    line-height: 4vh;
-    height: 4vh;
+    line-height: 3vh;
+    height: 3vh;
     margin-left:.2em;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
