@@ -308,11 +308,11 @@ li:before {
     margin-right: 1em;
 }
 
-.info, .success, .warning, .error, .browser {
+.info, .success, .warning, .error, .browser, .keyboard {
     padding:10px;
     margin:10px 0;
 }
-.info:before, .success:before, .warning:before, .error:before, .browser:before {
+.info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before {
     font-family:FontAwesome;
     font-style:normal;
     font-weight:400;
@@ -345,6 +345,9 @@ li:before {
 }
 .browser:before {
     content:'\f0ac';
+}
+.keyboard:before {
+    content:'\f11c';
 }
 .info {
     color: #00529B;
