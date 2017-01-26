@@ -116,6 +116,10 @@ img.eighth-h {
 img.sixteenth-h {
 	height: 6vh;
 }
+img.textimg {
+    height: 2.8vh;
+    margin-bottom: -0.9vh;
+}
 
 div {
     /* border: 1px solid #f00; */
@@ -373,4 +377,9 @@ li:before {
 {
     text-decoration: none;
     color: inherit;
+}
+.backhigh {
+    background-color: #a0e8f6;
+    color: #000;
+    font-weight:bold;
 }
