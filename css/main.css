@@ -311,10 +311,16 @@ li:before {
     margin-right: 1em;
 }
 
-.info, .success, .warning, .error, .browser, .keyboard {
+.info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock {
     padding:10px;
     margin:10px 0;
 }
+
+.redblock, .blueblock, .greenblock, .blackblock {
+    padding: 0.5vh;
+    font-weight: bold;
+}
+
 .info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {
     font-family:FontAwesome;
     font-style:normal;
@@ -383,5 +389,21 @@ li:before {
 .backhigh {
     background-color: #a0e8f6;
     color: #000;
-    font-weight:bold;
 }
+.redblock {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.blueblock {
+    background-color: #0000ff;
+    color: #ffffff;    
+}
+.greenblock {
+    background-color: #00ff00;
+    color: #000000;
+}
+.blackblock {
+    background-color: #000000;
+    color: #ffffff;
+}
+
