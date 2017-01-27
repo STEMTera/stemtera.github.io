@@ -316,7 +316,7 @@ li:before {
     padding:10px;
     margin:10px 0;
 }
-.info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before {
+.info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {
     font-family:FontAwesome;
     font-style:normal;
     font-weight:400;
@@ -353,12 +353,15 @@ li:before {
 .keyboard:before {
     content:'\f11c';
 }
+.mouse:before {
+    content: '\f245';
+}
 .info {
     color: #00529B;
     background-color: #BDE5F8;
 }
 .success {
-    color: #4F8A10;
+    color: #068106;
     background-color: #DFF2BF;
 }
 .warning {

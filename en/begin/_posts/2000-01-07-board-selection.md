@@ -9,9 +9,9 @@ contents:
 
 ## Board Selection
 
-After getting used to the user interface of the Arduino IDE, you need to configure the Arduino IDE to know the type of board that you intend to use. This configuration is located at the **`Tools`** menu.
+After connecting the (STMB) into the computer, you need to configure the Arduino IDE to know the type of board that you intend to use. This configuration is located at the **`Tools`** menu.
 
-Move the mouse over to the **`Tools`** menu and left click the **`Tools`** menu once. When the **`Tools`** menu appears, move the mouse to the **`Board`** sub menu and another sub menu with a list of boards will appear. Left click the **Arduino/Genuino Uno** selection. Arduino IDE is now configured to use the (STMB) as the choice of development board.
+Move the mouse over to the **`Tools`** menu and click the **`Tools`** menu once. When the **`Tools`** menu appears, move the mouse to the **`Board`** sub menu and another sub menu with a list of boards will appear. Click the **Arduino/Genuino Uno** selection. Arduino IDE is now configured to use the (STMB) as the choice of development board.
 
 The (STMB) is 100% compatible with Arduino UNO but it is not listed in the Arduino Software's Tools menu. Select "Arduino/Genuino Uno" instead.
 {: .info }
