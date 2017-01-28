@@ -18,7 +18,7 @@ The (STMB) is 100% compatible with Arduino UNO but it is not listed in the Ardui
 
 ## Port Selection
 
-The Arduino IDE also need to know the communication port of your (STMB). At the **`Tools -> Port`** sub menu, select the appropriate port of your (STMB). Different Operating System will show different **`Port`** name.
+The Arduino IDE also need to know the communication port of your (STMB). At the **`Tools -> Port`** sub menu, select the appropriate port of your (STMB). Different Operating Systems will show different **`Port`** names.
 
 ![Windows Logo](img/windows_logo.svg){: .sixteenth-h .left }On a Windows Operating System, the Arduino IDE will show the (STMB) as **`Port: "COMx (Arduino/Genuino Uno)"`**
 
@@ -26,4 +26,6 @@ The Arduino IDE also need to know the communication port of your (STMB). At the 
 
 ![Linux Logo](img/linux_logo.svg){: .sixteenth-h .left }On a Linux Operating System, the Arduino IDE will show the (STMB) as **`Port: "/dev/ttyACM0"`**
 
-![STEMTera Breadboard selection in Arduino IDE](img/board_selection.svg){: .half-w .center }
+Once the port has been configured, you can proceed to upload your first sketch.
+
+![STEMTera Breadboard selection in Arduino IDE](img/board_selection.svg){: .three-quarter-h-h .center }
