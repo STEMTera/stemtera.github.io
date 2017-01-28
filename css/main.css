@@ -69,12 +69,20 @@ img.full-w {
     width: 91vw;
 }
 
-img.three-quarter-w{
-	height: 60vw;
+img.three-quarter-w-w {
+    width: 78vw;
+}
+
+img.three-quarter-w {
+	width: 60vw;
 }
 
 img.half-w{
 	width: 42vw;
+}
+
+img.quarter-w-w {
+	width: 31vw;
 }
 
 img.quarter-w {
@@ -96,12 +104,20 @@ img.full-h {
     height: 88vh; 
 }
 
+img.three-quarter-h-h {
+    height: 80vh;
+}
+
 img.three-quarter-h {
 	height: 60vh;
 }
 
 img.half-h{
 	height: 45vh;
+}
+
+img.quarter-h-h {
+    height: 32vh;
 }
 
 img.quarter-h {
@@ -316,11 +332,6 @@ li:before {
     margin:10px 0;
 }
 
-.redblock, .blueblock, .greenblock, .blackblock {
-    padding: 0.5vh;
-    font-weight: bold;
-}
-
 .info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {
     font-family:FontAwesome;
     font-style:normal;
@@ -386,24 +397,29 @@ li:before {
     text-decoration: none;
     color: inherit;
 }
+
+.redblock, .blueblock, .greenblock, .blackblock {
+    padding: 0.5vh;
+    font-weight: bold;
+}
 .backhigh {
     background-color: #a0e8f6;
     color: #000;
 }
+.greenblock {
+    background-color: #00ff00;
+    color: #000;
+}
 .redblock {
     background-color: #ff0000;
-    color: #ffffff;
+    color: #dddddd;
 }
 .blueblock {
     background-color: #0000ff;
-    color: #ffffff;    
-}
-.greenblock {
-    background-color: #00ff00;
-    color: #000000;
+    color: #dddddd;    
 }
 .blackblock {
     background-color: #000000;
-    color: #ffffff;
+    color: #dddddd;
 }
 
