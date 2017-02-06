@@ -1,7 +1,7 @@
 ---
 title: "Getting to Know the (STMB) - Tie Points"
 style: two-col-page
-lang: en
+lang: nl
 contents:
 - Tie Points
 ---

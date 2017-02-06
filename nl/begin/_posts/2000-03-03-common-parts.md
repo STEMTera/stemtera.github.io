@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Electronics"
 style: two-col-page
-lang: en
+lang: nl
 contents:
 - Common Electronic Components 
 ---

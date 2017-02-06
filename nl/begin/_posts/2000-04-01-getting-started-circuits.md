@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Circuits"
 style: two-col-page
-lang: en
+lang: nl
 chapter : 4 
 contents:
 - Exercise 1

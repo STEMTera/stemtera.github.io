@@ -1,7 +1,7 @@
 ---
 title: "Introduction - Board Selection"
 style: two-col-page
-lang: en
+lang: nl
 contents:
 - Board Selection
 - Port Selection
