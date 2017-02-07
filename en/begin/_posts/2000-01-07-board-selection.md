@@ -28,4 +28,4 @@ The Arduino IDE also need to know the communication port of your (STMB). At the 
 
 Once the port has been configured, you can proceed to upload your first sketch.
 
-![STEMTera Breadboard selection in Arduino IDE](img/arduino_board_selection.svg){: .three-quarter-h-h .center }
+![STEMTera Breadboard selection in Arduino IDE](img/arduino_board_selection.svg){: .quarter-w-w .center }
