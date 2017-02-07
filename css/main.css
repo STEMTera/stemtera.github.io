@@ -97,6 +97,10 @@ img.sixteenth-w {
 	width: 6vw;
 }
 
+img.sixteenth-w-w {
+    width: 2vw;
+}
+
 img.full-h {
     /* border: 1px solid #00ff00; */
 	max-height: 100%;
