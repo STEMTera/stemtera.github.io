@@ -39,6 +39,11 @@ h1,h2,h3,h4{
 p {
 	margin-top: 2vh;
 	margin-bottom: 3vh;
+    overflow:auto;
+}
+
+p.no-overflow {
+    overflow: hidden;
 }
 
 img {
@@ -86,7 +91,11 @@ img.quarter-w-w {
 }
 
 img.quarter-w {
-	width: 23vw;
+	width: 22vw;
+}
+
+img.eighth-w-w {
+    width: 16vw;
 }
 
 img.eighth-w {

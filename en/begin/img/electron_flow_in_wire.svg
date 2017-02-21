@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4549" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="64.884mm" width="165.58mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 586.68322 229.90397">
+ <defs id="defs4551">
+  <marker id="marker6537" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6539" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6473" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6475" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6415" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6417" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6363" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6365" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6317" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6319" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6277" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6279" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6243" refY="0" refX="0" overflow="visible" orient="auto">
+   <path id="path6245" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+  <marker id="marker6209" refY="0" refX="0" orient="auto" overflow="visible">
+   <path id="path6211" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#fc0000" stroke-width="1pt" fill="#f00"/>
+  </marker>
+ </defs>
+ <g id="layer1" transform="translate(-15.621 -599.06)">
+  <g id="g6783" stroke="#000" fill="none">
+   <ellipse id="path5108" stroke-linecap="round" rx="33.84" ry="105.06" cy="704.87" cx="112.63" stroke-width="1.5"/>
+   <ellipse id="path5108-3" stroke-linecap="round" rx="33.84" ry="105.06" cy="704.87" cx="548.37" stroke-width="1.5"/>
+   <path id="path5125" d="m112.68 599.57h435.36" stroke-width="1px"/>
+   <path id="path5127" d="m113.04 810.09h435.27" stroke-width="1px"/>
+  </g>
+  <ellipse id="path4473" stroke-linecap="round" rx="19.227" ry="44.339" stroke="#000" cy="654.07" cx="198.29" stroke-width=".97923" fill="none"/>
+  <g id="g4535" transform="matrix(.32641 0 0 .32641 22.102 527.1)" stroke="#000" stroke-linecap="round" stroke-width="1.7939">
+   <g fill="#fbc13d">
+    <ellipse id="path4147-02-0-3" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+    <ellipse id="path4147-02-0-7" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+    <ellipse id="path4147-02-0-8" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+    <ellipse id="path4147-02-0-4" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+    <ellipse id="path4147-02-0-5" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+   </g>
+   <ellipse id="path4147-02-3" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+   <ellipse id="path4147-02-0-2" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+   <g fill="#0c6de3">
+    <ellipse id="path4147-02-5" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+    <ellipse id="path4147-02-8" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+    <ellipse id="path4147-02" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+   </g>
+   <ellipse id="path4147-02-0" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+   <ellipse id="path4147-02-2" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+  </g>
+  <g stroke="#000" stroke-linecap="round" stroke-width=".37758" fill="#82b318">
+   <circle id="path4147-3-7" cx="196.22" cy="609.81" r="1.7697"/>
+   <circle id="path4147-3-2" cx="211.18" cy="621.5" r="1.7697"/>
+   <circle id="path4147-3-1" cx="187.09" cy="690.26" r="1.7697"/>
+  </g>
+  <ellipse id="path4473-3" stroke-linecap="round" rx="19.227" ry="44.339" stroke="#000" transform="rotate(-50)" cy="574.01" cx="-375.59" stroke-width=".97923" fill="none"/>
+  <g stroke="#000" stroke-linecap="round" stroke-width=".37758" fill="#82b318">
+   <circle id="path4147-3-5" cx="178.96" cy="625.22" r="1.7697"/>
+   <circle id="path4147-3-0" cx="233.3" cy="672.15" r="1.7697"/>
+   <circle id="path4147-3-24" cx="220.4" cy="688.49" r="1.7697"/>
+   <circle id="path4147-3-9" cx="163.91" cy="643.16" r="1.7697"/>
+  </g>
+  <ellipse id="path4473-3-1" stroke-linecap="round" rx="19.227" ry="44.339" stroke="#000" transform="rotate(50)" cy="270.21" cx="630.51" stroke-width=".97923" fill="none"/>
+  <g stroke="#000" stroke-linecap="round" stroke-width=".37758" fill="#82b318">
+   <circle id="path4147-3-58" cx="228.89" cy="650.87" r="1.7697"/>
+   <circle id="path4147-3-70" cx="234.35" cy="633.59" r="1.7697"/>
+   <circle id="path4147-3-26" cx="166.32" cy="665.28" r="1.7697"/>
+   <circle id="path4147-3-25" cx="184.44" cy="643.21" r="1.7697"/>
+   <circle id="path4147-3-6" cx="163.45" cy="683.77" r="1.7697"/>
+   <circle id="path4147-3-6-32" cx="57.857" cy="673.79" r="1.7697"/>
+  </g>
+  <path id="path5830" marker-end="url(#marker6473)" d="m60.357 675.22 96.429 82.857" fill-rule="evenodd" stroke="#fc0000" stroke-width="1px" fill="#f00"/>
+  <g stroke="#000" stroke-linecap="round" stroke-width=".37758" fill="#82b318">
+   <circle id="path4147-3-6-32-4" cx="247.49" cy="722.29" r="1.7697"/>
+   <circle id="path4147-3-6-32-9" cx="342.86" cy="708.79" r="1.7697"/>
+   <circle id="path4147-3-6-32-5" cx="427.86" cy="703.08" r="1.7697"/>
+   <circle id="path4147-3-6-32-91" cx="600.35" cy="689.06" r="1.7697"/>
+  </g>
+  <g fill-rule="evenodd" stroke="#fc0000" fill="#f00">
+   <g stroke-width="1px">
+    <path id="path6183" marker-end="url(#marker6415)" d="m226.79 747.01c1.0714-1.4286 18.571-21.071 18.571-21.071"/>
+    <path id="path6185" marker-end="url(#marker6363)" d="m251.79 719.15 15.357-16.071"/>
+    <path id="path6187" marker-end="url(#marker6317)" d="m323.21 695.58 13.929 10.357"/>
+    <path id="path6189" marker-end="url(#marker6277)" d="m345.71 712.01 14.286 11.429"/>
+    <path id="path6191" marker-end="url(#marker6243)" d="m412.5 718.79 11.429-11.786"/>
+    <path id="path6193" marker-end="url(#marker6209)" d="m433.57 703.79 26.071 15.357"/>
+   </g>
+   <path id="path6195" marker-end="url(#marker6537)" d="m511.76 754.58 84.662-62.966" stroke-width="0.851px"/>
+  </g>
+  <text id="text6727" style="word-spacing:0px;letter-spacing:0px" font-size="25px" line-height="125%" y="828.79083" x="207.85471" font-family="sans-serif" xml:space="preserve" fill="#000000"><tspan id="tspan6729" font-size="12.5px" y="828.79083" x="207.85471">Electron Moves Between Atoms in Wire</tspan></text>
+  <g id="g5309-3" transform="matrix(.32641 0 0 .32641 135.5 432.54)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-31" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-0" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-1" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-1" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-2" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-2" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-8" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-9" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-0" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-1" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-6" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-6" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-9" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-7" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-8" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-7" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-5" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-4" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-0" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-9" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-1" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-0" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-6" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-1" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-2" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-1" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-0" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-0" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-2" transform="matrix(.32641 0 0 .32641 232.64 342.54)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-1" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-07" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-6" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-8" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-22" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-1" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-0" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-6" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-3" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-2" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-8" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-83" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-0" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-3" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-7" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-9" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-7" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-7" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-1" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-1" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-9" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-7" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-67" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-7" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-7" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-9" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-3" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-9" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-9" transform="matrix(.32641 0 0 .32641 246.93 437.54)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-6" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-6" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-2" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-3" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-6" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-5" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-03" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-8" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-06" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-4" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-65" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-69" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-45" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-6" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-1" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-95" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-0" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-11" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-2" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-6" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-5" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-6" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-4" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-12" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-29" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-2" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-02" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-97" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-4" transform="matrix(.32641 0 0 .32641 318.36 330.4)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-61" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-7" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-5" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-7" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-4" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-16" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-7" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-64" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-7" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-49" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-1" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-1" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-06" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-1" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-2" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-4" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-8" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-9" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-5" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-2" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-4" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-73" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-670" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-8" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-26" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-7" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-6" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-2" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-7" transform="matrix(.32641 0 0 .32641 339.47 432.03)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-4" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-8" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-8" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-6" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-7" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-6" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-4" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-0" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-6" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-0" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-87" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-9" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-456" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-9" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-6" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-2" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-07" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-3" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-9" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-68" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-6" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-1" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-45" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-9" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-4" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-6" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-9" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-7" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-1" transform="matrix(.32641 0 0 .32641 419.78 336.11)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-7" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-2" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-9" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-83" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-1" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-4" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-1" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-61" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-8" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-8" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-0" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-11" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-70" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-0" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-25" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-0" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-3" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-0" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-6" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-93" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-7" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-2" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-7" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-78" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-0" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-19" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-4" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-3" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <g id="g5309-41" transform="matrix(.32641 0 0 .32641 422.38 432.09)" stroke="#000" stroke-linecap="round">
+   <ellipse id="path4473-43" rx="58.904" ry="135.84" cy="990.7" cx="160.74" stroke-width="3" fill="none"/>
+   <g id="g4535-88" transform="translate(-379.05 601.72)" stroke-width="1.7939">
+    <g fill="#fbc13d">
+     <ellipse id="path4147-02-0-3-3" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+     <ellipse id="path4147-02-0-7-2" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+     <ellipse id="path4147-02-0-8-69" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+     <ellipse id="path4147-02-0-4-7" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+     <ellipse id="path4147-02-0-5-9" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+    </g>
+    <ellipse id="path4147-02-3-80" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+    <ellipse id="path4147-02-0-2-1" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+    <g fill="#0c6de3">
+     <ellipse id="path4147-02-5-43" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+     <ellipse id="path4147-02-8-80" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+     <ellipse id="path4147-02-64" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+    </g>
+    <ellipse id="path4147-02-0-20" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+    <ellipse id="path4147-02-2-2" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+   </g>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-7-83" cy="855.1" cx="154.38" r="5.4216"/>
+    <circle id="path4147-3-2-1" cy="890.94" cx="200.22" r="5.4216"/>
+    <circle id="path4147-3-1-00" cy="1101.6" cx="126.42" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-95" rx="58.904" transform="rotate(-50)" ry="135.84" cy="765.11" cx="-661.75" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-5-16" cy="902.33" cx="101.52" r="5.4216"/>
+    <circle id="path4147-3-0-63" cy="1046.1" cx="268" r="5.4216"/>
+    <circle id="path4147-3-24-8" cy="1096.2" cx="228.46" r="5.4216"/>
+    <circle id="path4147-3-9-9" cy="957.27" cx="55.415" r="5.4216"/>
+   </g>
+   <ellipse id="path4473-3-1-5" rx="58.904" transform="rotate(50)" ry="135.84" cy="518.84" cx="868.39" stroke-width="3" fill="none"/>
+   <g stroke-width="1.1568" fill="#82b318">
+    <circle id="path4147-3-58-79" cy="980.9" cx="254.46" r="5.4216"/>
+    <circle id="path4147-3-70-03" cy="927.95" cx="271.2" r="5.4216"/>
+    <circle id="path4147-3-26-93" cy="1025" cx="62.771" r="5.4216"/>
+    <circle id="path4147-3-25-5" cy="957.42" cx="118.29" r="5.4216"/>
+    <circle id="path4147-3-6-05" cy="1081.7" cx="53.985" r="5.4216"/>
+   </g>
+  </g>
+  <text id="text6731" line-height="125%" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-family="sans-serif" xml:space="preserve" font-size="25px" stroke="#000000" y="667.99915" x="15.233509" stroke-width="0.3" fill="#82b318"><tspan id="tspan6733" font-family="sans-serif" font-weight="bold" font-size="12.5px" stroke="#000000" y="667.99915" x="15.233509" stroke-width="0.3" fill="#82b318">electron</tspan></text>
+ </g>
+</svg>
