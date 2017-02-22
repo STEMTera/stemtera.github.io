@@ -39,7 +39,6 @@ h1,h2,h3,h4{
 p {
 	margin-top: 2vh;
 	margin-bottom: 3vh;
-    overflow:auto;
 }
 
 p.no-overflow {
@@ -145,8 +144,8 @@ img.sixteenth-h {
 	height: 6vh;
 }
 img.textimg {
-    height: 2.8vh;
-    margin-bottom: -0.9vh;
+    height: 1.4vw;
+    margin-bottom: -0.4vw;
 }
 
 .common-parts {
