@@ -57,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="154.28914"
-     inkscape:cy="-60.477691"
+     inkscape:zoom="1.4"
+     inkscape:cx="-99.770952"
+     inkscape:cy="-21.630349"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2143,25 +2143,25 @@ HDmylpyAypEjR9aSE1A5cuTIWnICKkeOHFlLTkDlyJEja8kJqBw5cmQtOQGVI0eOrCUnoHLkyJG1
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="327.2569"
+       x="331.2569"
        y="317.00507"
        id="text6803"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6805"
-         x="327.2569"
+         x="331.2569"
          y="317.00507"
          style="font-size:12.5px">Low Resistance</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="325.19391"
+       x="328.97897"
        y="422.02225"
        id="text6803-9"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6805-1"
-         x="325.19391"
+         x="328.97897"
          y="422.02225"
          style="font-size:12.5px">High Resistance</tspan></text>
   </g>
