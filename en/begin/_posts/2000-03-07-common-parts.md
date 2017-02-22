@@ -8,7 +8,7 @@ contents:
 
 ## Common Electronic Components 
 
-![Common Jumper Wire](img/common_jumper_wire.svg){: .common-parts .left }This is a test for jumperwire
+![Common Jumper Wire](img/common_jumper_wire.svg){: .common-parts .left }
 {: .no-overflow }
 
 ![Common Resistor](img/common_resistor.svg){: .common-parts .left }
@@ -20,9 +20,4 @@ contents:
 ![Common Diode](img/common_diode.svg){: .common-parts }
 
 ![Common Push Button](img/common_push_button.svg){: .common-parts }
-
-![Common Piezo Buzzer](img/common_piezo_buzzer.svg){: .common-parts }
-
-![Common Photo Resistor](img/common_photo_resistor.svg){: .common-parts }
-
 
