@@ -19,4 +19,4 @@ The characteristic of materials impede flow of electric current is called resist
 
 ![How to Measure Resistance](img/measure_resistance.svg){: .half-w .center}
 
-Turn the multimeter's knob to resistance range. Touch both ends of the material to be measured with the two probes from the multimeter. Check the reading. In the example above, the resistance for the 1K Ohm resistor is 1K.
+Turn the multimeter's knob to resistance range. Touch both RED probe and BLACK probe together, the reading on the multimeter should be 0 or near 0. Touch both ends of the material to be measured with the two probes from the multimeter. Check the reading. In the example above, the resistance for the 1K Ohm resistor is 1K.

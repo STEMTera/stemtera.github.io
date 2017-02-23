@@ -40,6 +40,7 @@ p {
 	margin-top: 2vh;
 	margin-bottom: 3vh;
     overflow: auto;
+    max-height: 100%
 }
 
 p.no-overflow {
@@ -290,6 +291,9 @@ div.two-col-two-third-page {
     div { 
         height: 98%;
     }
+    p {
+        max-height: 100%;
+    }
 }
 
 blockquote {
@@ -417,7 +421,7 @@ li:before {
 }
 
 .redblock, .blueblock, .greenblock, .blackblock {
-    padding: 0.5vh;
+    padding: 0.1vh;
     font-weight: bold;
 }
 .backhigh {
