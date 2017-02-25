@@ -13,8 +13,8 @@ parts:
 
 ## Exercise 1 - Blinking an LED
 
-![(stmb) Exercise 1 Schematic](img/exercise_1_schematic.svg){: .schematic .left }LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. 
+![(STMB) Exercise 1 Schematic](img/exercise_01_schematic.svg){: .schematic .left }LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. 
 
 {% include parts.html  %}
 
-
+![(STMB) Exercise 1 Breadboard](img/exercise_01_breadboard.svg){: .breadboard .center }
