@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-7.5916008"
-     inkscape:cy="6.6316292"
+     inkscape:zoom="3.959798"
+     inkscape:cx="68.541843"
+     inkscape:cy="30.607368"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,15 +70,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="344.47427"
-       y="357.79926"
+       x="342.39371"
+       y="358.69086"
        id="text10372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="344.47427"
-         y="357.79926"
+         x="342.39371"
+         y="358.69086"
          id="tspan10376"
-         style="font-size:10px">Green LED</tspan></text>
+         style="font-size:15px">Green</tspan><tspan
+         sodipodi:role="line"
+         x="342.39371"
+         y="377.44086"
+         style="font-size:15px"
+         id="tspan14592">LED</tspan></text>
     <g
        transform="matrix(0.76985107,0,0,0.76985107,-41.689049,70.951906)"
        id="g11906">

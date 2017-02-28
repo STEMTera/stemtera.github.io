@@ -55,7 +55,7 @@ img {
 	margin-right: 1vw;
 }
 
-img.center{
+.center {
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -162,11 +162,14 @@ img.schematic {
     border-radius: 4px;
     padding: 0.2vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left:0;
 }
 
 img.breadboard {
-    width: 42vw;
-    max-height: 90vh;
+    width: auto;
+    max-width: 40vw;
+    height: 90vh;
+    margin:0;
 }
 
 div {
@@ -231,18 +234,57 @@ div.part-title {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 1vw;
-    float:left;
+    float:left; 
+    max-height: 20vh;
 }
 
 div.part-title img {
     margin: 0;
-    width: 1.2vw;
+    width: 1.2vw; 
     max-height: 10vh;
 }
 
+
+div.schematic-title {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1vw;
+    float:left;
+    max-height: 20vh;
+}
+
+
+div.schematic-title img {
+    margin: 0;
+    width: 1.2vw; 
+    max-height: 16vh;
+}
+
 div.parts-container {
-    background-color: #eee;
-    max-height: 11vh; 
+    /* background-color: #eee; */
+    max-height: 12vh;
+    margin-top: 2vh;
+    margin-left: 0; 
+}
+
+div.schematic-container {
+    float: left;
+    margin-top: 2vh;
+    max-height: 35vh;
+    margin-left: 0;
+}
+
+
+div.breadboard-container {
+    max-height: 90vh;
+    height: 90vh;
+    margin-top: 0;
+    margin-left: 0;
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+    display: inline-block;
 }
 
 div.part {
@@ -261,6 +303,10 @@ div.part img {
 div.partdesc {
     text-align: right;
     max-height: 1.5vw;
+}
+
+.left {
+    float: left;
 }
 
 .qty {
@@ -405,7 +451,7 @@ li:before {
     margin-right: 1em;
 }
 
-.info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock {
+.info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding:10px;
     margin:10px 0;
 }
@@ -476,7 +522,7 @@ li:before {
     color: inherit;
 }
 
-.redblock, .blueblock, .greenblock, .blackblock {
+.redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding: 0.1vh;
     font-weight: bold;
 }
@@ -499,5 +545,9 @@ li:before {
 .blackblock {
     background-color: #000000;
     color: #dddddd;
+}
+.orangeblock {
+    background-color: #f86d22;
+    color: #eeeeee;
 }
 

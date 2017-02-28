@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-79.768036"
-     inkscape:cy="-0.13932315"
+     inkscape:zoom="2.8"
+     inkscape:cx="215.31829"
+     inkscape:cy="18.461824"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,15 +70,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="344.47427"
-       y="357.79926"
+       x="341.76382"
+       y="358.69086"
        id="text10372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="344.47427"
-         y="357.79926"
-         id="tspan10376"
-         style="font-size:10px">Red LED</tspan></text>
+         x="341.76382"
+         y="358.69086"
+         style="font-size:15px"
+         id="tspan15166">Red LED</tspan></text>
     <g
        transform="matrix(0.76984865,0,0,0.76984865,206.52197,70.684778)"
        id="g11882">

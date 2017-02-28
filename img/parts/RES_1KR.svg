@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="113.70934"
-     inkscape:cy="13.385711"
+     inkscape:zoom="7.919596"
+     inkscape:cx="69.238672"
+     inkscape:cy="59.766889"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -138,19 +138,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="344.47427"
-       y="357.79926"
+       x="341.76382"
+       y="358.69086"
        id="text10372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan10374"
-         x="344.47427"
-         y="357.79926"
-         style="font-size:10px">1KΩ</tspan><tspan
-         sodipodi:role="line"
-         x="344.47427"
-         y="370.29926"
+         x="341.76382"
+         y="358.69086"
          id="tspan10376"
-         style="font-size:10px">Resistor</tspan></text>
+         style="font-size:15px">Resistor</tspan><tspan
+         sodipodi:role="line"
+         x="341.76382"
+         y="377.44086"
+         style="font-size:15px"
+         id="tspan16312">1KΩ</tspan></text>
   </g>
 </svg>

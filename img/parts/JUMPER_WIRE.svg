@@ -34,9 +34,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-25.343779"
-     inkscape:cy="2.4646071"
+     inkscape:zoom="5.6"
+     inkscape:cx="71.090775"
+     inkscape:cy="67.340249"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,15 +70,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="344.47427"
-       y="357.79926"
+       x="344.01236"
+       y="358.47845"
        id="text10372"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="344.47427"
-         y="357.79926"
+         x="344.01236"
+         y="358.47845"
          id="tspan10376"
-         style="font-size:10px">Jumper Wire</tspan></text>
+         style="font-size:15px">Jumper </tspan><tspan
+         sodipodi:role="line"
+         x="344.01236"
+         y="377.22845"
+         style="font-size:15px"
+         id="tspan14018">Wire</tspan></text>
     <g
        id="g728-4-0"
        transform="matrix(0.83232441,0,0,-0.83232441,350.85484,434.42937)">
