@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-	font-size: 1.1vw; 
+	font-size: 1.1vwmax; 
 } 
 
 h1 { 
@@ -89,6 +89,7 @@ img.half-w{
 
 img.quarter-w-w {
 	width: 31vw;
+    max-height: 72vh;
 }
 
 img.quarter-w {
@@ -455,7 +456,7 @@ li {
 ol.connections {
     background-image: url("/img/parts/connections_title.svg");
     background-repeat: no-repeat;
-    background-size: 1.2vw auto;
+    background-size: 1.2vw 5.8vmax;
     height: 15vmin;
     padding-left: 4vw;
 }
