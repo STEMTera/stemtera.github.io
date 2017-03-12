@@ -153,7 +153,6 @@ img.textimg {
 .common-parts {
     border: 5px solid #aaa;
     width: 20vw;
-    max-height: 22vh;
 }
 
 img.schematic {
@@ -440,26 +439,17 @@ ul {
 }
 
 li { 
-    padding-left: 1em; 
-    text-indent: -0.1em;
+    padding-left: 2em; 
+    text-indent: -1.1em;
 }
 
-.toc-content li:before {
+li:before {
     content: "\f111";
     font-size: 0.7vw;
     font-family: FontAwesome;
     color: #f86d22; 
     margin-right: 1em;
 }
-
-ol.connections {
-    background-image: url("/img/parts/connections_title.svg");
-    background-repeat: no-repeat;
-    background-size: 1.2vw auto;
-    height: 15vmin;
-    padding-left: 4vw;
-}
-
 
 .info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding:10px;

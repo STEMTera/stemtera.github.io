@@ -21,7 +21,7 @@ breadboard:
 
 {% include schematic.html %}LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this exercise we will start with one of the easiest LED blinking circuit. 
 
-PIN3 is used to drive the LED on and off. The 330Ω resistor act as a current limiter to limit the current flowing through the LED. Depending on the specifications, LEDs need about 8mA to 20mA of current to light up.
+In this excercise, PIN3 is used to drive the LED on and off. The 330Ω resistor act as a current limiter to limit the current flowing through the LED. Depending on the specifications, LEDs need about 8mA to 20mA of current to light up.
 
 <div style="clear:both; height:0;"></div>
 
