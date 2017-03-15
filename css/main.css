@@ -168,10 +168,11 @@ img.schematic {
 }
 
 img.breadboard {
-    width: auto;
-    max-width: 40vw;
-    height: 90vh;
-    margin:0;
+    width: 40vw;
+    height: auto;
+    margin: 0;
+    height: 86vh;
+    max-height: 90vh;
 }
 
 div {
