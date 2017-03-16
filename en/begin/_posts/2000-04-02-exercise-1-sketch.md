@@ -54,7 +54,7 @@ Once PIN3 is configured as **OUTPUT**, we can then instruct the (STMB) to either
 
 `digitalWrite(3, HIGH);`
 
-The `digitalWrite()` function shown above takes two parameters. The first parameter is the pin number and the second parameter is **HIGH** or **LOW**. When the PIN is set to **HIGH**, the PIN will **OUTPUT** 5V. When the PIN is set to **LOW**, the PIN will **OUTPUT** 0V (no voltage).
+The `digitalWrite()` function shown above takes two parameters. The first parameter is the pin number and the second parameter is **HIGH** or **LOW**. When a PIN is set to **HIGH**, the PIN will **OUTPUT** 5V. When a PIN is set to **LOW**, the PIN will **OUTPUT** 0V (no voltage and connected to GROUND).
 
 In order to set an ON time or OFF time, we can add the following line of code after setting a PIN **HIGH** or **LOW**
 
