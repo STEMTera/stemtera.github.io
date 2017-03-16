@@ -85,6 +85,7 @@ img.three-quarter-w {
 
 img.half-w{
 	width: 42vw;
+    max-height: 38vh;
 }
 
 img.quarter-w-w {
@@ -94,6 +95,7 @@ img.quarter-w-w {
 
 img.quarter-w {
 	width: 22vw;
+    max-height: 37vh;
 }
 
 img.eighth-w-w {
@@ -171,7 +173,6 @@ img.breadboard {
     width: 40vw;
     height: auto;
     margin: 0;
-    height: 86vh;
     max-height: 90vh;
 }
 
@@ -276,6 +277,7 @@ div.schematic-container {
     margin-top: 2vh;
     max-height: 35vh;
     margin-left: 0;
+    margin-right: 0.6vw;
 }
 
 
