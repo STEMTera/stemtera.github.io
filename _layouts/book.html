@@ -39,7 +39,7 @@
     <ul>
 
     {% assign pagenumber = 0  %}
-    {% for post in site.categories.[page.category] reversed %}
+    {% for post in site.categories[page.category] reversed %}
     {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
     {% if post.lang == page.lang %}
         {% assign pagenumber = pagenumber | plus: 1 %}
@@ -64,7 +64,7 @@
     <!-- Contents -->
     {% assign pagenumber = 0  %}
 
-    {% for post in site.categories.[page.category] reversed %}
+    {% for post in site.categories[page.category] reversed %}
       {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
         {% if post.lang ==  page.lang %}
             {% assign pagenumber = pagenumber | plus: 1 %}
