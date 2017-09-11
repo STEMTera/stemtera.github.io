@@ -21,6 +21,6 @@ Sometimes atoms can gain or lose **electrons**. Loss of **electrons** leaves an 
 
 ## Electricity
 
-![Electron flows in Wire](img/electron_flow_in_wire.svg){: .half-w .center}
+![Electron flows in Wire](img/electron_flow_in_wire.svg){: .full-w .center}
 
 **Electrons** being negative in nature, are attracted to positive charged. By making use of this nature, **electrons** can be made to move from one atom to another. When **electrons** move between the atoms, a current of electricity is created. In certain gases and liquids, atoms with extra **protons** can also flow and creates electric current too.
