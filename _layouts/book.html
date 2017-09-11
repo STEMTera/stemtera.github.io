@@ -69,7 +69,7 @@
         {% if post.lang ==  page.lang %}
             {% assign pagenumber = pagenumber | plus: 1 %}
 
-            <div id="page{{ pagenumber | plus: 3 }}" class="{{ post.style }}">
+            <div id="page{{ pagenumber | plus: 3 }}" class="">
     
             {% if post.chapter %}
                 <h1>{{ post.chapter }}. {{ post.title | replace: site.stmb_key , site.stmb }}</h1>

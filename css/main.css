@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans: 400,600');
+:root {
+	--body-width: 65vw;
+}
+
 html { 
 	color: #333;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body { 
 	font-size: 1.1vwmax; 
+	width: var(--body-width);
+	margin: 0 auto;
 } 
 
 h1 { 
@@ -72,52 +78,49 @@ img.right {
 }
 
 img.full-w {
-    width: 91vw;
+    width: calc(0.91 * var(--body-width));
 }
 
 img.three-quarter-w-w {
-    width: 78vw;
+    width: calc(0.78 * var(--body-width));
 }
 
 img.three-quarter-w {
-	width: 60vw;
+	width: calc(0.60 * var(--body-width));
 }
 
 img.half-w{
-	width: 42vw;
-    max-height: 38vh;
+    width: calc(0.42 * var(--body-width));
 }
 
 img.quarter-w-w {
-	width: 31vw;
-    max-height: 72vh;
+	width: calc(0.31 * var(--body-width));
 }
 
 img.quarter-w {
-	width: 22vw;
-    max-height: 37vh;
+	width: calc(0.22 * var(--body-width));
 }
 
 img.eighth-w-w {
-    width: 16vw;
+    width: calc(0.16 * var(--body-width));
 }
 
 img.eighth-w {
-	width: 12vw;
+	width: calc(0.12 * var(--body-width));
 }
 
 img.sixteenth-w {
-	width: 6vw;
+	width: calc(0.06 * var(--body-width));
 }
 
 img.sixteenth-w-w {
-    width: 2vw;
+    width: calc(0.02 * var(--body-width));
 }
 
 img.full-h {
     /* border: 1px solid #00ff00; */
 	max-height: 100%;
-    max-width: 100%;
+    max-width: calc(0.91 * var(--body-width));
     height: 88vh; 
 }
 
@@ -130,7 +133,7 @@ img.three-quarter-h {
 }
 
 img.half-h{
-	height: 45vh;
+	height: 43vh;
 }
 
 img.quarter-h-h {
@@ -155,13 +158,13 @@ img.textimg {
 
 .common-parts {
     border: 5px solid #aaa;
-    width: 20vw;
-    max-height: 22vh;
+    width: 26vw;
+    /* max-height: 22vh; */
 }
 
 img.schematic {
-    width: 22vw;
-    max-height: 30vh;
+    width: calc(0.90 * var(--body-width));
+    max-height: 50vh;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0.2vw;
@@ -178,12 +181,8 @@ img.breadboard {
 
 div {
     /* border: 1px solid #f00; */
-	height: 95vh;
 	margin-left: 1vw;
 	margin-right: 1vw;
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
 }
 
 div.fullpage {
@@ -267,15 +266,16 @@ div.schematic-title img {
 
 div.parts-container {
     /* background-color: #eee; */
-    max-height: 12vh;
     margin-top: 2vh;
-    margin-left: 0; 
+    margin-left: 0;
+    overflow: hidden;
+	 
 }
 
 div.schematic-container {
-    float: left;
+    /* float: left; */
     margin-top: 2vh;
-    max-height: 35vh;
+    /*max-height: 35vh;*/
     margin-left: 0;
     margin-right: 0.6vw;
 }
@@ -289,20 +289,20 @@ div.breadboard-container {
     -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
     page-break-inside: avoid; /* Firefox */
     break-inside: avoid; /* IE 10+ */
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 div.part {
     border: 2px solid #aaa;
     margin: 0vw;
     float:left;
-    max-height: 10.5vh;
+    /*max-height: 10.5vh;*/
 }
 
 div.part img {
     margin-top: 0.2vw;
-    width: 5.7vw;
-    max-height: 10vh;
+    width: 8vw;
+    /*max-height: 10vh;*/
 }
 
 div.partdesc {
@@ -320,10 +320,6 @@ div.partdesc {
 }
 
 .toc-title {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    height: 20vh;
     /* border: 1px solid #000; */
     text-align: center;
     vertical-align: middle;
@@ -336,14 +332,7 @@ div.partdesc {
 
 
 .toc-content {
-    height: 74vh;
     /* border: 1px solid #000; */
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    -webkit-column-gap: 2.5vw; /* Chrome, Safari, Opera */
-    -moz-column-gap: 2.5vw; /* Firefox */
-    column-gap: 2.5vw;
 }
 
 .toc a:hover, .toc a:visited, .toc a:link, .toc a:active
@@ -460,14 +449,15 @@ ol.connections {
     background-image: url("/img/parts/connections_title.svg");
     background-repeat: no-repeat;
     background-size: 1.2vw 5.8vmax;
-    height: 15vmin;
+    height: 18vmin;
     padding-left: 4vw;
 }
 
 
 .info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding:10px;
-    margin:10px 0;
+    margin:3em 0;
+
 }
 
 .info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {

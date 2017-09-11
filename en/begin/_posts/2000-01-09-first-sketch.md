@@ -18,11 +18,11 @@ The `Blink` sketch will be loaded into the Arduino IDE.
 Click ![arduino_ide_upload button](img/arduino_ide_upload_icon.svg){: .sixteenth-w-w } Upload, and both yellow LEDs on the (STMB) will start blinking indicating the computer is uploading the sketch to the (STMB).
 {: .mouse }
 
-![(STMB) Tx Rx LED Blinking](img/stemtera_tx_rx_blink.svg){: .quarter-w-w } 
+![(STMB) Tx Rx LED Blinking](img/stemtera_tx_rx_blink.svg){: .three-quarter-w-w .center } 
 
 When the sketch uploading is completed, both yellow LEDs will stop blinking. The message area of the Arduino IDE will display `Done uploading`, indicating upload is completed.
 
-![Arduino IDE (STMB) Blink Example](img/arduino_ide_blink.svg){: .quarter-w-w .center}
+![Arduino IDE (STMB) Blink Example](img/arduino_ide_blink.svg){: .full-h .center}
 
 At the same time, because the `Blink` sketch instructed the (STMB) to blink, you can see the red LED starts to blink.
 
