@@ -175,7 +175,7 @@ img.schematic {
 }
 
 img.breadboard {
-    width: 40vw;
+    width: calc(0.91 * var(--body-width));
     height: auto;
     margin: 0;
     max-height: 90vh;
@@ -286,8 +286,6 @@ div.schematic-container {
 
 
 div.breadboard-container {
-    max-height: 90vh;
-    height: 90vh;
     margin-top: 0;
     margin-left: 0;
     -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
