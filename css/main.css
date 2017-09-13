@@ -18,6 +18,8 @@ h1 {
 	font-size: 2.7vw;
     color: #f86d22;
     text-shadow: 2px 2px 2px #bbbbbb;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
 } 
 
 h2 { 
@@ -37,9 +39,9 @@ h4 {
 	font-style: italic;
 }
 
-h1,h2,h3,h4{
-	margin-top: 0.7vw;
-	margin-bottom: 0.7vw;
+h2,h3,h4{
+	margin-top: 6vh;
+	margin-bottom: 2vh;
 }
 
 p {
@@ -378,6 +380,7 @@ div.partdesc {
     }
 }
 
+/*
 @media print {
     * {margin: 0;}
     .page-break { height:0; page-break-after:always; margin:0 !important; border-top:none; }
@@ -391,6 +394,7 @@ div.partdesc {
         max-height: 100%;
     }
 }
+*/
 
 blockquote {
 font-family: Georgia, serif;
@@ -448,7 +452,7 @@ li {
 ol.connections {
     background-image: url("/img/parts/connections_title.svg");
     background-repeat: no-repeat;
-    background-size: 1.2vw 5.8vmax;
+    background-size: 1.2vw calc(8 * (1vw + 1vh - 1vmin));
     height: 18vmin;
     padding-left: 4vw;
 }
@@ -456,7 +460,7 @@ ol.connections {
 
 .info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding:10px;
-    margin:3em 0;
+    margin: 2em 0;
 
 }
 
@@ -476,7 +480,8 @@ ol.connections {
     height: 3vh;
     margin-left:.2em;
     -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
+    -moz-osx-font-smoothing:grayscale;
+    font-size: 1.5em;
 }
 
 .info:before {
