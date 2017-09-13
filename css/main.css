@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans: 400,600');
 :root {
-	--body-width: 65vw;
+	--body-width: 70vw;
 }
 
 html { 
@@ -9,21 +9,21 @@ html {
 }
 
 body { 
-	font-size: 1.1vwmax; 
+	font-size: 1.1em; 
 	width: var(--body-width);
 	margin: 0 auto;
 } 
 
 h1 { 
-	font-size: 2.7vw;
-    color: #f86d22;
-    text-shadow: 2px 2px 2px #bbbbbb;
+	font-size: 2.7em;
+	color: #f86d22;
+	text-shadow: 2px 2px 2px #bbbbbb;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
 } 
 
 h2 { 
-	font-size: 1.8vw; 
+	font-size: 1.8em; 
 } 
 
 span.titlenumber {
@@ -31,11 +31,11 @@ span.titlenumber {
 }
 
 h3 { 
-	font-size: 1.5vw; 
+	font-size: 1.5em; 
 } 
 
 h4 {
-	font-size: 1.2vw;
+	font-size: 1.2em;
 	font-style: italic;
 }
 
@@ -47,8 +47,8 @@ h2,h3,h4{
 p {
 	margin-top: 2vh;
 	margin-bottom: 3vh;
-    overflow: auto;
-    max-height: 100%
+	overflow: auto;
+	max-height: 100%
 }
 
 p.no-overflow {
@@ -116,7 +116,7 @@ img.sixteenth-w {
 }
 
 img.sixteenth-w-w {
-    width: calc(0.02 * var(--body-width));
+    width: calc(0.04 * var(--body-width));
 }
 
 img.full-h {
@@ -268,15 +268,17 @@ div.schematic-title img {
 
 div.parts-container {
     /* background-color: #eee; */
-    margin-top: 2vh;
-    margin-left: 0;
-    overflow: hidden;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: 0;
+	overflow: hidden;
 	 
 }
 
 div.schematic-container {
     /* float: left; */
-    margin-top: 2vh;
+    margin-top: 5vh;
+	margin-bottom: 5vh;
     /*max-height: 35vh;*/
     margin-left: 0;
     margin-right: 0.6vw;
@@ -453,8 +455,8 @@ ol.connections {
     background-image: url("/img/parts/connections_title.svg");
     background-repeat: no-repeat;
     background-size: 1.2vw calc(8 * (1vw + 1vh - 1vmin));
-    height: 18vmin;
     padding-left: 4vw;
+	padding-bottom:8vh;
 }
 
 
