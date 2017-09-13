@@ -15,7 +15,7 @@ body {
 } 
 
 h1 { 
-	font-size: 2.7em;
+	font-size: 2.5em;
 	color: #f86d22;
 	text-shadow: 2px 2px 2px #bbbbbb;
 	margin-top: 2vh;
@@ -31,7 +31,8 @@ span.titlenumber {
 }
 
 h3 { 
-	font-size: 1.5em; 
+	font-size: 1.3em;
+	color: #0074D9; 
 } 
 
 h4 {
@@ -358,7 +359,8 @@ div.partdesc {
         border-width: 1px;
         border-color: #aaa;
         height: 2.1vw; 
-        margin-bottom:13px;
+        margin-bottom:5vh;
+	margin-top: 10vh;
     }
 
     .page-break:after {

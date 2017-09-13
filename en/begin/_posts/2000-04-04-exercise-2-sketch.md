@@ -3,11 +3,9 @@ title: "Getting Started with Circuits"
 style: two-col-page
 lang: en
 contents:
-- Exercise 2 - Write and Upload the PWM Sketch
-- Exercise 2 - Understanding the PWM Sketch
 ---
 
-## Exercise 2 - Write and Upload the PWM Sketch
+### Write and Upload the PWM Sketch
 
 In order to execute the sketch for this exercise, launch Arduino IDE then 
 
@@ -40,7 +38,7 @@ void loop() {
 Click ![arduino_ide_upload button](img/arduino_ide_upload_icon.svg){: .sixteenth-w-w } Upload, and the Arduino IDE will prompt you to ***Save sketch folder as***. Enter `Excercise_2` into the filename field and click save. Once saved, the Arduino IDE will start to compile the sketch. After the compilation is completed, the Arduino IDE will start to upload the compiled sketch into the (STMB). During this stage both yellow LEDs on the (STMB) will start blinking indicating the Arduino IDE is uploading the sketch to the (STMB).
 {: .mouse }
 
-## Exercise 2 - Understanding the PWM Sketch
+### Understanding the PWM Sketch
 
 
 From the circuit, we know that PIN3 of the (STMB) is connected to the 330Ω resistor and the Red LED. In order to turn on the LED, we need to instruct the (STMB) to set PIN3 to **OUTPUT** in the `setup()` function.
