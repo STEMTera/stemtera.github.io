@@ -461,7 +461,7 @@ ol.connections {
 
 
 .info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
-    padding:10px;
+    padding: 2em;
     margin: 2em 0;
 
 }
