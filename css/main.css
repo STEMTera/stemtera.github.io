@@ -460,13 +460,13 @@ ol.connections {
 }
 
 
-.info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
+.info, .challenge, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding: 2em;
     margin: 2em 0;
 
 }
 
-.info:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {
+.info:before, .challenge:before, .success:before, .warning:before, .error:before, .browser:before, .keyboard:before, .mouse:before {
     font-family:FontAwesome;
     font-style:normal;
     font-weight:400;
@@ -487,7 +487,10 @@ ol.connections {
 }
 
 .info:before {
-    content:"\f05a";
+    content:'\f05a';
+}
+.challenge:before {
+    content:'\f0eb';
 }
 .success:before {
     content:'\f00c';
@@ -508,6 +511,10 @@ ol.connections {
     content: '\f245';
 }
 .info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.challenge {
     color: #00529B;
     background-color: #BDE5F8;
 }
