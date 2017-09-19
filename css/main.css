@@ -376,7 +376,7 @@ div.partdesc {
     .footer { 
         /* border: 1px dotted #000; */
         height: 7vh; 
-        font-size: 0.6vw; 
+        font-size: 0.5em; 
         margin-top: -8vh;
         text-align: right;
     }
