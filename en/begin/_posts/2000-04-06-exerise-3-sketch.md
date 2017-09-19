@@ -1,5 +1,5 @@
 ---
-title: "Exercise 2 - Knight Rider LED"
+title: "Exercise 3 - Knight Rider LED"
 style: two-col-page
 lang: en
 contents:
