@@ -477,9 +477,9 @@ ol.connections {
     margin-right:.8em;
     text-align:center;
     font-variant:normal;
-    text-transform:none;
-    line-height: 3vh;
-    height: 3vh;
+    /* text-transform:none; */
+    /* line-height: 3vh; */
+    /* height: 3vh; */
     margin-left:.2em;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
