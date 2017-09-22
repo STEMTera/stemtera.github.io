@@ -15,24 +15,15 @@ Click ***File*** -> ***New***.
 A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
 
 {% highlight c  %}
-/*
-Blink
-Turns on an LED on for one second, then off for one second, repeatedly.
-
-*/
-
-// the setup function runs once when you press reset or power the board
 void setup() {
-    // initialize digital pin LED_BUILTIN as an output.
     pinMode(3, OUTPUT);
 }
 
-// the loop function runs over and over again forever
 void loop() {
-    digitalWrite(3, HIGH);  // turn the LED on (HIGH is the voltage level)
-    delay(1000);            // wait for a second
-    digitalWrite(3, LOW);   // turn the LED off by making the voltage LOW
-    delay(1000);            // wait for a second
+    digitalWrite(3, HIGH);
+    delay(1000);
+    digitalWrite(3, LOW);
+    delay(1000);
 }
 {% endhighlight %}
 

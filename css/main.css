@@ -23,7 +23,7 @@ h1 {
 } 
 
 h2 { 
-	font-size: 2.1em; 
+	font-size: 1.8em; 
 } 
 
 span.titlenumber {
@@ -31,7 +31,7 @@ span.titlenumber {
 }
 
 h3 { 
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #0074D9; 
 } 
 
@@ -180,6 +180,14 @@ img.breadboard {
     height: auto;
     margin: 0;
     max-height: 90vh;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 div {

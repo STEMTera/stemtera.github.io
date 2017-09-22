@@ -31,7 +31,7 @@ void loop() {
         delay(50); // wait for 50 ms
         // if BUTTON Pin still low, then it is a solid press
         if (digitalRead(BUTTON)==LOW) {
-            LEDState = !LEDState;           // toggle the LED state
+            LEDState = !LEDState;   // toggle the LED state
             digitalWrite(LED, LEDState);    
         }
         // NOTE: this is a bad way to debounce a button
