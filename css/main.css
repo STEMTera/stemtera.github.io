@@ -23,7 +23,7 @@ h1 {
 } 
 
 h2 { 
-	font-size: 1.8em; 
+	font-size: 2.1em; 
 } 
 
 span.titlenumber {
@@ -31,7 +31,7 @@ span.titlenumber {
 }
 
 h3 { 
-	font-size: 1.3em;
+	font-size: 1.5em;
 	color: #0074D9; 
 } 
 
@@ -346,7 +346,7 @@ div.partdesc {
 
 .preface {
     text-align: center;
-    font-size: 0.8vw;
+    font-size: 0.6em;
     margin-top: 60vh;
     margin-right: auto;
     margin-left: auto;

@@ -116,7 +116,7 @@ The following codes instruct the (STMB) to print out the variables message via t
     Serial.println(brightness);
 
 
-When executed in a loop, the current light level is continuously being converted into a relative brightness value and thus making the LED automatically controlled by the ambient light.
+When executed in a loop, the current ambient light level is continuously being converted into a relative brightness value and thus making the LED automatically controlled by the ambient light.
 {: .success }
 
 CHALLENGE! Connect another LED to the circuit and add codes into the currect sketch to do the reverse of the current LED's behavior.
