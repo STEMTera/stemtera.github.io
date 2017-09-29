@@ -1,11 +1,11 @@
 .highlight {
     display: inline-block;
-    width: 100%;
+    width: calc(0.91 * var(--body-width));
     background-color: #fdfdfd;
     font-size: 1em;
-    margin:3vh 0;
-    padding-left: 10px;
-    border: 3px solid #dddddd;
+    margin: 3vh 0;
+    padding: 2vh 2vw;
+    border: 2px solid #dddddd;
 }
 .highlight .c { color: #60a0b0; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
