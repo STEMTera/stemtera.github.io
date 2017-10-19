@@ -468,8 +468,12 @@ ol.connections {
 	padding-bottom:8vh;
 }
 
+.keyboard {
+    padding: 0 2em;
+    margin: 2em 0;
+}
 
-.info, .challenge, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
+.info, .challenge, .success, .warning, .error, .browser, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding: 2em;
     margin: 2em 0;
 
