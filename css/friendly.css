@@ -1,12 +1,8 @@
-.highlight {
-    display: inline-block;
-    width: calc(0.91 * var(--body-width));
-    background-color: #fdfdfd;
-    font-size: 1em;
-    margin: 3vh 0;
-    padding: 2vh 2vw;
-    border: 2px solid #dddddd;
+.highlight { 
+    background-color: #f8f8f8;
+    padding: 0.1em 0.5em; 
 }
+.highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #60a0b0; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #007020; font-weight: bold } /* Keyword */

@@ -1,12 +1,13 @@
 ---
 safe: false
-
+encoding: utf-8
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
+highlighter: rouge
 
 ### content configuration ###
 stmb:           "STEMTera&trade; Breadboard"
@@ -33,4 +34,7 @@ colors:
 
 kramdown:
   auto_ids:  false
+  input: GFM
+  syntax_highlighter: rouge
 
+github: [metadata]

@@ -192,9 +192,10 @@ pre {
 }
 
 div {
-    /* border: 1px solid #f00; */
+    /* border: 1px solid #f00; 
 	margin-left: 1vw;
 	margin-right: 1vw;
+    */
 }
 
 div.fullpage {
@@ -581,4 +582,3 @@ ol.connections {
     background-color: #f86d22;
     color: #eeeeee;
 }
-
