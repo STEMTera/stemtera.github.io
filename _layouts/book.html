@@ -85,10 +85,8 @@
     {% endfor %}
 
     <!-- Footer -->  
-    <div id="footer" class="footer">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
-    </div>  
+    {% include footer.html %}
+
 {% if jekyll.environment == 'production' %}
     {% include google_analytics.html %}
 {% endif %}

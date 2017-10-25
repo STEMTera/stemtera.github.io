@@ -1,6 +1,7 @@
 ---
-title: "Introduction - Board Selection"
-style: two-col-page
+author: jpliew
+title: "Board Selection"
+layout: guide
 lang: en
 contents:
 - Board Selection

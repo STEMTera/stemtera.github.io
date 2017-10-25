@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Exercise 3 - Knight Rider LED"
-style: two-col-page
+layout: guide
 lang: en
 contents:
 ---

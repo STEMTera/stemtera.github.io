@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Getting to Know the (STMB)"
-style: two-col-page
+layout: guide
 lang: nl
 chapter : 2
 contents:
@@ -27,4 +28,4 @@ The functions of the (STMB) can be easily divided into different sections below.
 
 `Tie Points`{: .blackblock } - These tie points are used for joining components. 5 tie points (ABCDE) are joined in a group. (FGHIJ) is another group.
 
-![Get to Know (STMB)](img/get_to_know_stemtera.svg){: .half-w }
+![Get to Know (STMB)](img/get_to_know_stemtera.svg){: .full-w }

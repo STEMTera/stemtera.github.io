@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Getting to Know the (STMB)"
-style: two-col-page
+layout: guide
 lang: en
 chapter : 2
 contents:

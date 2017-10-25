@@ -1,0 +1,70 @@
+---
+---
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+{% include header.html %}
+</head>
+<body>
+<!--
+    <nav><ul>
+        {% for node in site.posts reversed %}
+            {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+            <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+        {% endfor %}
+    </ul></nav>
+-->
+    <!-- Cover Page -->
+    <div id="page1">
+    {% capture covertext %} {% include cover.md %} {% endcapture %}
+    {{ covertext | markdownify | replace: site.stmb_key , site.stmb }}
+    </div>
+    <div class="page-break"></div>
+
+    <!-- Preface -->
+    <div id="page2">
+    {% capture prefacetext %} {% include preface.md %} {% endcapture %}
+    {{ prefacetext | markdownify | replace: site.stmb_key, site.stmb }}
+    </div>
+    <div class="page-break"></div>
+
+    <!-- TOC -->
+    <div id="page3" class="toc">
+    <div class="toc-title">
+    <h1>Contents</h1>
+    {% capture toctext %} {% include toc.md %} {% endcapture %}
+    {{ toctext | markdownify | replace: site.stmb_key, site.stmb }}
+    </div>
+    <div class="toc-content">
+    <ul>
+
+{% for post in site.categories[page.lang] reversed %}
+    {% if  page.categories == post.categories %}
+        {% if post.chapter %}
+            </ul>
+            <a href="{{ post.url }}"><h3><span class="titlenumber">{{ post.chapter }}.</span> {{ post.title | replace: site.stmb_key , site.stmb  }}</h3></a> 
+            <ul>
+        {% endif %}
+        {% for content in post.contents %}
+            <li><a href="{{ post.url }}">{{ content | replace: site.stmb_key , site.stmb  }}</a></li>
+        {% endfor %}
+        {% if post.chapter =="" %}
+            </ul>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+    </ul>
+    </div>
+    </div>
+    <!-- page nav -->
+    {% include page_nav.html %}
+
+    <!-- Footer -->  
+    {% include footer.html %}
+{% if jekyll.environment == 'production' %}
+    {% include google_analytics.html %}
+{% endif %}
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- <script src="/js/main.js"></script> -->
+</body>
+</html>

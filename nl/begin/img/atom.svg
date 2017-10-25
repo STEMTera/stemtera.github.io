@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="78.722mm" width="71.905mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 254.78171 278.93606">
+ <g id="layer1" transform="translate(-405.44 -247.39)">
+  <ellipse id="path4473" stroke-linecap="round" rx="58.904" ry="135.84" stroke="#000" cy="388.98" cx="539.79" stroke-width="3" fill="none"/>
+  <g id="g4535" stroke="#000" stroke-linecap="round" stroke-width="1.7939">
+   <g fill="#fbc13d">
+    <ellipse id="path4147-02-0-3" rx="8.4578" ry="8.3586" cy="381.62" cx="558.24"/>
+    <ellipse id="path4147-02-0-7" rx="8.4578" ry="8.3586" cy="396.27" cx="539.04"/>
+    <ellipse id="path4147-02-0-8" rx="8.4578" ry="8.3586" cy="393.36" cx="553.31"/>
+    <ellipse id="path4147-02-0-4" rx="8.4578" ry="8.3586" cy="379.73" cx="531.59"/>
+    <ellipse id="path4147-02-0-5" rx="8.4578" ry="8.3586" cy="398.29" cx="522.25"/>
+   </g>
+   <ellipse id="path4147-02-3" rx="8.4578" ry="8.3586" cy="382.72" cx="521.34" fill="#0c6de3"/>
+   <ellipse id="path4147-02-0-2" rx="8.4578" ry="8.3586" cy="371.52" cx="538.66" fill="#fbc13d"/>
+   <g fill="#0c6de3">
+    <ellipse id="path4147-02-5" rx="8.4578" ry="8.3586" cy="376.74" cx="550.45"/>
+    <ellipse id="path4147-02-8" rx="8.4578" ry="8.3586" cy="384.95" cx="539.73"/>
+    <ellipse id="path4147-02" rx="8.4578" ry="8.3586" cy="391.83" cx="529.1"/>
+   </g>
+   <ellipse id="path4147-02-0" rx="8.4578" ry="8.3586" cy="405.23" cx="548.26" fill="#fbc13d"/>
+   <ellipse id="path4147-02-2" rx="8.4578" ry="8.3586" cy="408.7" cx="532.95" fill="#0c6de3"/>
+  </g>
+  <g font-size="11.25px" stroke="#000000" font-family="sans-serif" stroke-width="0.3">
+   <text id="text4320" line-height="125%" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="353.9693" x="516.96429" fill="#fbc13d"><tspan id="tspan4322" font-family="sans-serif" font-weight="bold" font-size="12.5px" stroke="#000000" y="353.9693" x="516.96429" stroke-width="0.3" fill="#fbc13d">Proton</tspan></text>
+   <text id="text4324" line-height="125%" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="439.95148" x="512.85718" fill="#0c6de3"><tspan id="tspan4326" font-family="sans-serif" font-weight="bold" font-size="12.5px" stroke="#000000" y="439.95148" x="512.85718" stroke-width="0.3" fill="#0c6de3">Neutron</tspan></text>
+   <text id="text4324-5" line-height="125%" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" y="268.07474" x="604.7323" fill="#ff0000"><tspan id="tspan4326-1" font-family="sans-serif" font-weight="bold" font-size="12.5px" stroke="#000000" y="268.07474" x="604.7323" stroke-width="0.3" fill="#ff0000">Nucleus</tspan></text>
+  </g>
+  <g fill="#82b318">
+   <g stroke="#000" stroke-linecap="round" stroke-width="1.1568">
+    <circle id="path4147-3-7" cx="533.42" cy="253.39" r="5.4216"/>
+    <circle id="path4147-3-2" cx="579.26" cy="289.23" r="5.4216"/>
+    <circle id="path4147-3-1" cx="505.46" cy="499.88" r="5.4216"/>
+   </g>
+   <text id="text4324-5-0" line-height="125%" style="word-spacing:0px;letter-spacing:0px" font-family="sans-serif" xml:space="preserve" font-size="11.25px" stroke="#000000" y="523.09363" x="404.43759" stroke-width="0.3"><tspan id="tspan4326-1-0" font-family="sans-serif" font-weight="bold" font-size="12.5px" stroke="#000000" y="523.09363" x="404.43759" stroke-width="0.3" fill="#82b318">Electron</tspan></text>
+  </g>
+  <g fill="none">
+   <g stroke="#fd6200" stroke-width="1.5">
+    <path id="path4463" d="m628.43 272.11-61.724 97.902"/>
+    <path id="path4465" d="m539.29 355.21-0.35792 13.404"/>
+    <path id="path4469" d="m532.32 413.03-0.0877 16.673"/>
+    <path id="path4471" d="m463.28 517.46c0.49382-0.4379 36.542-14.743 36.542-14.743"/>
+   </g>
+   <ellipse id="path4473-3" stroke-linecap="round" rx="58.904" ry="135.84" stroke="#000" transform="rotate(-50)" cy="668.7" cx="42.838" stroke-width="3"/>
+  </g>
+  <g stroke="#000" stroke-linecap="round" stroke-width="1.1568" fill="#82b318">
+   <circle id="path4147-3-5" cx="480.56" cy="300.62" r="5.4216"/>
+   <circle id="path4147-3-0" cx="647.04" cy="444.37" r="5.4216"/>
+   <circle id="path4147-3-24" cx="607.51" cy="494.45" r="5.4216"/>
+   <circle id="path4147-3-9" cx="434.46" cy="355.56" r="5.4216"/>
+  </g>
+  <ellipse id="path4473-3-1" stroke-linecap="round" rx="58.904" ry="135.84" stroke="#000" transform="rotate(50)" cy="-158.31" cx="651.1" stroke-width="3" fill="none"/>
+  <g stroke="#000" stroke-linecap="round" stroke-width="1.1568" fill="#82b318">
+   <circle id="path4147-3-58" cx="633.51" cy="379.19" r="5.4216"/>
+   <circle id="path4147-3-70" cx="650.25" cy="326.24" r="5.4216"/>
+   <circle id="path4147-3-26" cx="441.82" cy="423.32" r="5.4216"/>
+   <circle id="path4147-3-25" cx="497.34" cy="355.71" r="5.4216"/>
+   <circle id="path4147-3-6" cx="433.03" cy="479.98" r="5.4216"/>
+  </g>
+ </g>
+</svg>

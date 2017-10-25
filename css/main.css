@@ -198,6 +198,11 @@ div {
     */
 }
 
+div.page-nav {
+    margin-top: 1em;
+    text-align: center;
+}
+
 div.fullpage {
     height: 95vh;
 }

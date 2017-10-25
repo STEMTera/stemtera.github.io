@@ -1,0 +1,4 @@
+{% assign author =  site.data.people[page.author] %}
+<div class="page-break"></div>
+<div class="footer">
+<p><strong>{{ current_title | replace: site.stmb_key , site.stmb }}</strong> is <a href="{{ current_github_url }}">open source</a>, please feel free to translate and share. &mdash; by <a href="{{ author.url }}"><i>{{author.name}}</i></a></div>

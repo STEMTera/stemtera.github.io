@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Getting Started with Circuits"
-style: two-col-page
+layout: guide
 lang: en
 chapter : 4 
 contents:

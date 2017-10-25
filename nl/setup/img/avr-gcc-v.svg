@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="185.40833mm"
+   height="111.325mm"
+   viewBox="0 0 185.40833 111.325"
+   version="1.1"
+   id="svg4614"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="avr-gcc-v.svg">
+  <defs
+     id="defs4608" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="271.94448"
+     inkscape:cy="249.77712"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4611">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.74107,-5.5803578)">
+    <rect
+       style="opacity:1;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect5245"
+       width="4.7247124"
+       height="102.92547"
+       x="195.22469"
+       y="13.779886" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect5216"
+       width="180.19344"
+       height="102.92547"
+       x="15.031268"
+       y="13.779886" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.4501667px;line-height:1.21000004;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="15.11112"
+       y="21.149515"
+       id="text5172"><tspan
+         sodipodi:role="line"
+         id="tspan5170"
+         x="15.11112"
+         y="21.149515"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;">C:\Users\jplie&gt;avr-gcc -v</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="25.383181"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5174">Using built-in specs.</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="29.616844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5176">COLLECT_GCC=avr-gcc</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="33.85051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5178">COLLECT_LTO_WRAPPER=c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../libexec/gcc/av</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="38.084175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5192">r/4.6.2/lto-wrapper.exe</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="42.317837"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5180">Target: avr</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="46.551502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5182">Configured with: /home/tools/hudson/workspace/avr8-gnu-toolchain/src/gcc/configure LDFLAGS=-L/</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="50.785168"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5194">home/tools/hudson/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib CPPFLAGS= --ta</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="55.018833"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5196">rget=avr --host=i686-pc-mingw32 --build=x86_64-pc-linux-gnu --prefix=/home/tools/hudson/worksp</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="59.252499"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5198">ace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --libdir=/home/tools/hudson/workspace/avr8</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="63.48616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5200">-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib --enable-languages=c,c++ --with-dwarf2 --enabl</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="67.719826"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5202">e-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-mpfr=/home/tools</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="71.953491"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5204">/hudson/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --with-gmp=/home/tools/hudso</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="76.187157"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5206">n/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --with-mpc=/home/tools/hudson/work</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="80.420822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5208">space/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --enable-win32-registry=avrtoolchain --e</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="84.654488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5210">nable-fixed-point --with-pkgversion=AVR_8_bit_GNU_Toolchain_3.4.1_798 --with-bugurl=http://www</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="88.888153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5212">.atmel.com</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="93.121811"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5184">Thread model: single</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="97.355476"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5186">gcc version 4.6.2 (AVR_8_bit_GNU_Toolchain_3.4.1_798)</tspan><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="101.58914"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5188" /><tspan
+         sodipodi:role="line"
+         x="15.11112"
+         y="105.76385"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4501667px;line-height:1.21000004;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#c8c8c8;fill-opacity:1;stroke-width:0.26458332;"
+         id="tspan5190">C:\Users\jplie&gt;</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#3d93c5;stroke-width:0.40000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect5214"
+       width="185.00833"
+       height="110.925"
+       x="14.94107"
+       y="5.7803578" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 167.3962,9.4782358 2.45685,0.023625"
+       id="path5218"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 179.70405,8.3443071 v 2.3859749 h 2.4096 V 8.3679307 Z"
+       id="path5220"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 192.14173,8.3739658 2.51401,2.4638912"
+       id="path5222"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 194.62233,8.3906703 -2.43884,2.4388347"
+       id="path5224"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#cdcdcd;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect5226"
+       width="4.0396204"
+       height="4.4175968"
+       x="195.50819"
+       y="18.077194" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 196.57124,16.281807 c 0.0177,-0.02362 0.94494,-0.927223 0.94494,-0.927223 l 0.87407,0.968564"
+       id="path5228"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.42951,113.7621 c -0.0177,0.0236 -0.94494,0.92722 -0.94494,0.92722 l -0.87407,-0.96855"
+       id="path5228-4"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5253"
+       transform="translate(-5.2916667)">
+      <rect
+         y="7.8836484"
+         x="22.135229"
+         height="3.6616442"
+         width="4.2876673"
+         id="rect5247"
+         style="opacity:1;fill:#a6a9af;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="8.7222834"
+         x="22.259253"
+         height="2.6458333"
+         width="4.0396204"
+         id="rect5249"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="22.285526"
+       y="10.760956"
+       id="text5257"><tspan
+         sodipodi:role="line"
+         id="tspan5255"
+         x="22.285526"
+         y="10.760956"
+         style="font-size:2.82222223px;stroke-width:0.26458332">C:\Windows\system32\cmd.exe</tspan></text>
+  </g>
+</svg>

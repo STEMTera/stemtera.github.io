@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Potentiometer"
-style: two-col-page
+layout: guide
 lang: en
 contents:
 ---

@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Getting to Know the (STMB) - Tie Points"
-style: two-col-page
+layout: guide
 lang: nl
 contents:
 - Tie Points
@@ -8,7 +9,7 @@ contents:
 
 ## Tie Points
 
-![Tie Points of (STMB)](img/stemtera_inner_connection.svg){: .three-quarter-h-h .center}
+![Tie Points of (STMB)](img/stemtera_inner_connection.svg){: .full-h .center}
 
 There are a total of 634 tie points in the (STMB), divided into 3 major group.
 
@@ -18,6 +19,8 @@ The second group is just normal tie points. These tie points marked with green c
 
 The last group is a formation of 1x2 tie points connected to the micro-controllers' pins inside the (STMB). They can be seen marked with black color in the diagram.
 
-![(STMB) clip](img/stemtera_breadboard_clip.svg){: .quarter-h-h .left }Inside the holes of the tie points are spring clips. These spring clips manufactured in the formation of 1x2, 1x5 and 1x30. When you insert a component inside a tie point, a resistor for example, the leg of the resistor will be held by the two arms of the clip inside the tie point, thus making a mechanical connection as shown on the left diagram. Because the clips are made from copper or stainless steel, electricity can flow from the resistor to the clip.
+![(STMB) clip](img/stemtera_breadboard_clip.svg){: .half-w .center }
+
+Inside the holes of the tie points are spring clips. These spring clips manufactured in the formation of 1x2, 1x5 and 1x30. When you insert a component inside a tie point, a resistor for example, the leg of the resistor will be held by the two arms of the clip inside the tie point, thus making a mechanical connection as shown on the left diagram. Because the clips are made from copper or stainless steel, electricity can flow from the resistor to the clip.
 
 By using mixtures of components connecting to the tie points, complex electronic circuits can be then formed.
