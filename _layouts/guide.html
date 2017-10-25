@@ -10,6 +10,11 @@
     <!-- Page Nav -->
     {% include page_nav.html %}
 
+    <!-- Post title if a single page post, variable only working after calling page_nav.html  -->
+    {% if foundcount==nil or foundcount<=1 %}
+    <h1>{{ current_title | replace: site.stmb_key , site.stmb }}</h1>
+    {% endif %}
+
     <!-- Contents -->
     {{ content | replace: site.stmb_key , site.stmb }}
 
