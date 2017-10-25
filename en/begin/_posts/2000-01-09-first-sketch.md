@@ -1,6 +1,7 @@
 ---
-title: "Introduction - First Sketch"
-style: two-col-page
+author: jpliew
+title: "First Sketch"
+layout: guide
 lang: en
 contents:
 - Uploading Your First Sketch

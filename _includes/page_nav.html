@@ -1,0 +1,56 @@
+{% if called %}
+    {% if foundcount > 1 %}
+        <div class="page-nav">
+        {% if prev_post %}
+            <a href="{{ prev_post }}">&#10094; Prev Page</a> |
+        {% endif %}
+        <a href="{{ full_article }}">Full Article</a> |
+        <a href="{{ urls[0] }}">TOC</a>
+        {% if next_post %}
+             | <a href="{{ next_post }}">Next Page &#10095;</a>
+        {% endif %}
+        </div>
+    {% endif %}
+{% else %}
+    {% assign cat=page.categories[0] %}
+    {% assign foundcount = 0 %}
+    {% for post in site.categories[cat] reversed %}
+        {% if page.categories==post.categories %}
+            {% if forloop.first == true %}
+                {% assign urls = urls | append: post.url %}
+            {% else %}
+                {% assign urls = urls | append: ',' | append: post.url %}
+            {% endif %}
+            {% if post.url == page.url %}
+                {% assign currentindex = foundcount %}
+            {% endif %}
+            {% assign foundcount = foundcount | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    {% assign urls = urls | split: ',' %}
+    {% if foundcount > 1 %}
+        {% if currentindex == 0 %}
+            {% assign next = currentindex | plus: 1 %}
+            {% assign next_post = urls[next] %}
+        {% elsif currentindex == foundcount | minus: 1 %}
+            {% assign prev = currentindex | minus: 1 %}
+            {% assign prev_post = urls[prev] %}
+        {% else %}
+            {% assign prev = currentindex | minus: 1 %}
+            {% assign next = currentindex | plus: 1 %}
+            {% assign prev_post = urls[prev] %}
+            {% assign next_post = urls[next] %}
+        {% endif %}
+        <div class="page-nav">
+        {% if prev_post %}
+            <a href="{{ prev_post }}">&#10094; Prev Page</a> | 
+        {% endif %}
+        <a href="{{ full_article }}">Full Article</a> | 
+        <a href="{{ urls[0] }}">TOC</a>
+        {% if next_post %}
+             | <a href="{{ next_post }}">Next Page &#10095;</a>
+        {% endif %}
+        </div>
+    {% endif %}
+    {% assign called = true %}
+{% endif %}

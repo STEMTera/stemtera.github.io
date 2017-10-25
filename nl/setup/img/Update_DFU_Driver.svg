@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="162.58357mm"
+   height="125.11857mm"
+   viewBox="0 0 162.58357 125.11857"
+   version="1.1"
+   id="svg9244"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Update_DFU_Driver.svg">
+  <defs
+     id="defs9238" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="342.60232"
+     inkscape:cy="229.03955"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9241">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.864459,-6.7100617)">
+    <rect
+       style="opacity:1;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:1.00053513;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9821"
+       width="162.35513"
+       height="11.008677"
+       x="25.975258"
+       y="120.70235" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#2a88c0;stroke-width:0.23524129;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99215686;paint-order:normal"
+       d="M 25.98208,6.8276823 H 188.33041 V 131.71101 H 25.98208 Z"
+       id="rect7244"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#e1e1e1;fill-opacity:1;stroke:#bebebe;stroke-width:0.26499999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9819"
+       width="18.87591"
+       height="5.8799295"
+       x="166.60915"
+       y="123.14117" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="171.11931"
+       y="127.21705"
+       id="text9817"><tspan
+         sodipodi:role="line"
+         id="tspan9815"
+         x="171.11931"
+         y="127.21705"
+         style="font-size:2.82222223px;stroke-width:0.26458332">Cancel</tspan></text>
+    <path
+       style="fill:none;stroke:#bfbfbf;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 29.86737,17.419369 -1.336349,1.319643 1.369758,1.453278"
+       id="path9825"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#bfbfbf;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.531021,18.739012 2.873147,0.01671"
+       id="path9827"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#404040;fill-opacity:1;stroke:#dee1e4;stroke-width:0.13684349;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9829"
+       width="1.6575305"
+       height="3.1275132"
+       x="36.985699"
+       y="17.05415" />
+    <rect
+       style="opacity:1;fill:#3fff3f;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9831"
+       width="0.5094825"
+       height="0.72663903"
+       x="37.576424"
+       y="17.586412" />
+    <path
+       style="fill:#404040;fill-opacity:1;stroke:#dee1e4;stroke-width:0.13229167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 37.04572,20.37243 h 1.553245 l 0.28053,0.28053 v 0.404552 h -2.158598 v -0.413411 z"
+       id="path9833"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="41.075085"
+       y="19.890715"
+       id="text9837"><tspan
+         sodipodi:role="line"
+         id="tspan9835"
+         x="41.075085"
+         y="19.890715"
+         style="font-size:2.82222223px;stroke-width:0.26458332">Update Drivers - Arduino Uno DFU</tspan></text>
+    <path
+       style="fill:none;stroke:#0937b1;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.6875,48.575147 h 91.84821"
+       id="path9845"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0937b1;stroke-width:1.85208333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 45.546131,54.150296 H 155.72619"
+       id="path9847"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0937b1;stroke-width:1.80868793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 45.546131,58.124656 H 150.62352"
+       id="path9847-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0937b1;stroke-width:1.85208333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 45.451637,62.654761 H 56.790916"
+       id="path9847-34"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e0e0e0;stroke-width:0.26458332;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9870"
+       width="124.92113"
+       height="24.473959"
+       x="36.191223"
+       y="42.716518" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e3f0fa;stroke-width:0.26458332;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect9870-7"
+       width="124.94302"
+       height="20.58704"
+       x="36.317986"
+       y="69.612633" />
+    <path
+       style="fill:none;stroke:#0279d7;stroke-width:0.52916676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 41.412212,77.060286 42.74856,75.740643 41.378803,74.287365"
+       id="path9825-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#0279d7;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.401842,75.682651 -4.133869,-0.01646"
+       id="path9827-2"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0937b1;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.899925"
+       y="33.786831"
+       id="text9907"><tspan
+         sodipodi:role="line"
+         id="tspan9905"
+         x="36.899925"
+         y="33.786831"
+         style="font-size:3.52777767px;fill:#0937b1;fill-opacity:1;stroke-width:0.26458332">How do you want to search for drivers?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0279d7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="45.067612"
+       y="76.829933"
+       id="text9907-5"><tspan
+         sodipodi:role="line"
+         id="tspan9905-5"
+         x="45.067612"
+         y="76.829933"
+         style="font-size:3.52777767px;fill:#0279d7;fill-opacity:1;stroke-width:0.26458332">Browse my computer for driver software</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0279d7;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="44.860737"
+       y="81.907677"
+       id="text9907-0"><tspan
+         sodipodi:role="line"
+         id="tspan9905-1"
+         x="44.860737"
+         y="81.907677"
+         style="font-size:2.71638894px;fill:#0279d7;fill-opacity:1;stroke-width:0.26458332">Locate and install driver software manually.</tspan></text>
+    <path
+       style="fill:none;stroke:#bfbfbf;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 188.20852,24.053942 H 26.092188"
+       id="path9935"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 182.468,9.17113 2.42142,2.468657"
+       id="path9937"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 184.94847,9.1947533 -2.45684,2.4686577"
+       id="path9939"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

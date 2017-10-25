@@ -3,7 +3,7 @@ safe: false
 encoding: utf-8
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
+permalink: /:categories/:title
 timezone: null
 lsi: false
 markdown: kramdown

@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Introduction to Electronics"
-style: two-col-page
+layout: guide
 lang: en
 chapter : 3 
 contents:

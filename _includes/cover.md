@@ -1,1 +1,1 @@
-![{{ page.title }} Cover Page](/{{ page.lang}}/{{ page.category }}/img/cover.svg){: .full-w }
+![{{ page.title }} Cover Page](img/cover.svg){: .full-w }

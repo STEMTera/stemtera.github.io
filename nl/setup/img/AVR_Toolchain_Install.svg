@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="183.28mm"
+   height="138.61833mm"
+   viewBox="0 0 183.28 138.61833"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="AVR_Toolchain_Install.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="393.97316"
+     inkscape:cy="291.69943"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.705238,-16.024163)">
+    <rect
+       style="opacity:1;fill:#3d66ab;fill-opacity:1;stroke:none;stroke-width:0.46574685;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4604"
+       width="182.73448"
+       height="104.34908"
+       x="16.050385"
+       y="38.565498" />
+    <rect
+       style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:0.34741843;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4574-0"
+       width="182.87965"
+       height="11.52793"
+       x="15.905238"
+       y="142.91458"
+       rx="0.50086761"
+       ry="0.37653124" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="17.197916"
+       y="20.718302"
+       id="text4517"><tspan
+         sodipodi:role="line"
+         id="tspan4515"
+         x="17.197916"
+         y="20.718302"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332">AVR Toolchain - InstallShield Wizard</tspan></text>
+    <g
+       id="g4529">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4523"
+         d="m 195.39073,18.571969 -2.48895,2.505652"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4525"
+         d="m 192.9686,18.622082 2.42213,2.472243"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="69.339737"
+       y="75.732742"
+       id="text828"><tspan
+         sodipodi:role="line"
+         id="tspan826"
+         x="69.339737"
+         y="75.732742"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.71640587px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Welcome to the InstallShield Wizard for AVR Toolchain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="69.925591"
+       y="89.585571"
+       id="text832"><tspan
+         sodipodi:role="line"
+         id="tspan830"
+         x="69.925591"
+         y="89.585571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">This program will install AVR Toolchain release 3.4.1.1195 on your computer.</tspan><tspan
+         sodipodi:role="line"
+         x="69.925591"
+         y="92.672379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944451px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan834">AVR Toolchain contains compiler toolchains for AVR 8-bit and 32-bit MCUs</tspan></text>
+    <g
+       id="g4602"
+       transform="translate(0.22920252,-12.181318)">
+      <rect
+         ry="0.5"
+         rx="0.5"
+         y="157.89612"
+         x="115.3268"
+         height="6.1471992"
+         width="20.713387"
+         id="rect836"
+         style="opacity:1;fill:#e3e3eb;fill-opacity:1;stroke:#8b8d9e;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text840"
+         y="161.97844"
+         x="120.77492"
+         style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:2.82222223px;stroke-width:0.26458332"
+           y="161.97844"
+           x="120.77492"
+           id="tspan838"
+           sodipodi:role="line">Next &gt;</tspan></text>
+    </g>
+    <g
+       id="g4570"
+       transform="translate(5.8208334,-11.97096)">
+      <rect
+         ry="0.5"
+         rx="0.5"
+         y="157.68576"
+         x="87.397133"
+         height="6.1471992"
+         width="20.713388"
+         id="rect836-0"
+         style="opacity:1;fill:#e3e3eb;fill-opacity:1;stroke:#8b8d9e;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text840-8"
+         y="161.81149"
+         x="92.549667"
+         style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:2.82222223px;stroke-width:0.26458332"
+           y="161.81149"
+           x="92.549667"
+           id="tspan838-6"
+           sodipodi:role="line">&lt; Back</tspan></text>
+    </g>
+    <g
+       id="g4565"
+       transform="translate(0.26726953,-12.037778)">
+      <rect
+         ry="0.5"
+         rx="0.5"
+         y="157.75258"
+         x="174.86108"
+         height="6.1471992"
+         width="20.713388"
+         id="rect836-2"
+         style="opacity:1;fill:#e3e3eb;fill-opacity:1;stroke:#8b8d9e;stroke-width:0.2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text840-1"
+         y="161.87831"
+         x="180.4856"
+         style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:2.82222223px;stroke-width:0.26458332"
+           y="161.87831"
+           x="180.4856"
+           id="tspan838-3"
+           sodipodi:role="line">Cancel</tspan></text>
+    </g>
+    <rect
+       style="opacity:1;fill:#003366;fill-opacity:1;stroke:none;stroke-width:0.40034282;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4574"
+       width="182.87965"
+       height="15.307693"
+       x="15.875171"
+       y="23.356308" />
+    <rect
+       style="opacity:1;fill:#5b5b5b;fill-opacity:1;stroke:none;stroke-width:0.40000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4606"
+       width="48.380955"
+       height="103.94345"
+       x="16.050385"
+       y="38.565498" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#8b8d9e;stroke-width:0.40000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4572"
+       width="182.88"
+       height="138.21834"
+       x="15.905238"
+       y="16.224163"
+       rx="0.49999899"
+       ry="0.49999899" />
+  </g>
+</svg>

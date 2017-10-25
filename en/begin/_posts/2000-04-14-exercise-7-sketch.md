@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Automatic Night Lamp"
-style: two-col-page
+layout: guide
 lang: en
 contents:
 ---

@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Exercise 5 - Buzzer Music"
-style: two-col-page
+layout: guide
 lang: en
 contents:
 ---

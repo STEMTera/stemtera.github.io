@@ -1,6 +1,7 @@
 ---
+author: jpliew
 title: "Getting to Know the (STMB) - Tie Points"
-style: two-col-page
+layout: guide
 lang: en
 contents:
 - Tie Points
