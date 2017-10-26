@@ -2,8 +2,10 @@
 author: jpliew
 title: "Getting to Know the (STMB)"
 layout: guide
+post-card-type: article
 lang: en
 chapter : 2
+description: (STMB) diagram, pinouts, tie points and connection layout.
 contents:
 - Hello (STMB)
 ---

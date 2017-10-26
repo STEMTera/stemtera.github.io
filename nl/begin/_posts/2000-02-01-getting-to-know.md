@@ -3,6 +3,7 @@ author: jpliew
 title: "Getting to Know the (STMB)"
 layout: guide
 lang: nl
+hidden: true
 chapter : 2
 contents:
 - Hello (STMB)

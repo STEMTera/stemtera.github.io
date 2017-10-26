@@ -2,7 +2,9 @@
 author: jpliew
 title: "Automatic Night Lamp"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Arduino night lamp sketch into the (STMB).
 contents:
 ---
 

@@ -2,7 +2,9 @@
 author: jpliew
 title: "Getting Started with Circuits"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload Arduino PWM sketch into the (STMB).
 contents:
 ---
 

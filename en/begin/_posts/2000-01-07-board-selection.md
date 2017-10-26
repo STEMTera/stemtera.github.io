@@ -2,7 +2,9 @@
 author: jpliew
 title: "Board Selection"
 layout: guide
+post-card-type: article
 lang: en
+description: How to select board and port of the (STMB) in Arduino IDE.
 contents:
 - Board Selection
 - Port Selection

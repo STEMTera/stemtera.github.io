@@ -2,7 +2,9 @@
 author: jpliew
 title: "Potentiometer"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Arduino potentiometer sketch into the (STMB).
 contents:
 ---
 

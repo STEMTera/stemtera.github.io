@@ -2,7 +2,9 @@
 author: jpliew
 title: "Exercise 4 - Push Button Controlled LED"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Arduino push button and LED sketch into the (STMB).
 contents:
 ---
 

@@ -3,6 +3,7 @@ author: jpliew
 title: "First Sketch"
 layout: guide
 lang: nl
+hidden: true
 contents:
 - Uploading Your First Sketch
 ---

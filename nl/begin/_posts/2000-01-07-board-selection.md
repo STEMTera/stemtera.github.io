@@ -3,6 +3,7 @@ author: jpliew
 title: "Board Selection"
 layout: guide
 lang: nl
+hidden: true
 contents:
 - Board Selection
 - Port Selection
