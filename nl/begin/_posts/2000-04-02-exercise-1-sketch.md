@@ -3,6 +3,7 @@ author: jpliew
 title: "Getting Started with Circuits"
 layout: guide
 lang: nl
+hidden: true
 contents:
 ---
 

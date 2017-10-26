@@ -2,8 +2,10 @@
 author: jpliew
 title: "Getting Started with Circuits"
 layout: guide
+post-card-type: article
 lang: en
 chapter : 4 
+description: How to blink an LED using the (STMB).
 contents:
 - Exercise 1 - Blinking LED
 parts:

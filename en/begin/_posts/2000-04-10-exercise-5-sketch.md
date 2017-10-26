@@ -2,7 +2,9 @@
 author: jpliew
 title: "Exercise 5 - Buzzer Music"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Arduino buzzer music sketch into the (STMB). 
 contents:
 ---
 

@@ -2,7 +2,9 @@
 author: jpliew
 title: "Introduction to Electronics"
 layout: guide
+post-card-type: article
 lang: en
+description: What is resistance and how to measure resistance.
 contents:
 - Resistance
 - How to Measure Resistance

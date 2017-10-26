@@ -3,6 +3,7 @@ author: jpliew
 title: "Introduction to Electronics"
 layout: guide
 lang: nl
+hidden: true
 contents:
 - Resistance
 - How to Measure Resistance

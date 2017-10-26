@@ -2,8 +2,10 @@
 author: jpliew
 title: "Introduction to Electronics"
 layout: guide
+post-card-type: article
 lang: en
 chapter : 3 
+description: Introduction to electronics, atoms, electric charge and electricity.
 contents:
 - Atoms
 - Electric Charge

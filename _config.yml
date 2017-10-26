@@ -33,8 +33,10 @@ colors:
   turquoise: '#0fbfcf'
 
 kramdown:
-  auto_ids:  false
+  auto_ids: true 
   input: GFM
   syntax_highlighter: rouge
 
 github: [metadata]
+paginate: 9
+paginate_path: "pages/:num/"

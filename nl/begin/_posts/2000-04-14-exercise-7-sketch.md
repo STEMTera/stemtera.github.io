@@ -3,6 +3,7 @@ author: jpliew
 title: "Automatic Night Lamp"
 layout: guide
 lang: nl
+hidden: true
 contents:
 ---
 

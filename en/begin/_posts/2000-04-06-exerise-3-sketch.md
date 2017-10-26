@@ -2,7 +2,9 @@
 author: jpliew
 title: "Exercise 3 - Knight Rider LED"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Arduino Kinght Rider running LED sketch into the (STMB).
 contents:
 ---
 

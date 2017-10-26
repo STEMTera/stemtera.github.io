@@ -2,7 +2,9 @@
 author: jpliew
 title: "Introduction to Electronics"
 layout: guide
+post-card-type: article
 lang: en
+description: Commonly used electronic components part 1. 
 contents:
 - Common Electronic Components 
 ---

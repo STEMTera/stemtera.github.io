@@ -3,6 +3,7 @@ author: jpliew
 title: "Exercise 3 - Knight Rider LED"
 layout: guide
 lang: nl
+hidden: true
 contents:
 ---
 

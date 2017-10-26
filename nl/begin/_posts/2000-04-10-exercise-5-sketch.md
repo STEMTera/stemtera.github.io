@@ -3,6 +3,7 @@ author: jpliew
 title: "Exercise 5 - Buzzer Music"
 layout: guide
 lang: nl
+hidden: true
 contents:
 ---
 

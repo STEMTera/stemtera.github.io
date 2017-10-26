@@ -3,6 +3,7 @@ author: jpliew
 title: "Potentiometer"
 layout: guide
 lang: nl
+hidden: true
 contents:
 ---
 

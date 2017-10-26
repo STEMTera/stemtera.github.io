@@ -3,6 +3,7 @@ author: jpliew
 title: "Getting to Know the (STMB) - Tie Points"
 layout: guide
 lang: nl
+hidden: true
 contents:
 - Tie Points
 ---

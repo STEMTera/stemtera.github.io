@@ -2,7 +2,9 @@
 author: jpliew
 title: "Getting Started with Circuits"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload the Blinking LED sketch to the (STMB).
 contents:
 ---
 

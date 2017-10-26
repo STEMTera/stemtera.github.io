@@ -2,7 +2,9 @@
 author: jpliew
 title: "First Sketch"
 layout: guide
+post-card-type: article
 lang: en
+description: How to upload Arduino sketch into the (STMB)
 contents:
 - Uploading Your First Sketch
 ---

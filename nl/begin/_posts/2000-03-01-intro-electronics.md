@@ -3,6 +3,7 @@ author: jpliew
 title: "Introduction to Electronics"
 layout: guide
 lang: nl
+hidden: true
 chapter : 3 
 contents:
 - Atoms

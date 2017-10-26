@@ -2,7 +2,9 @@
 author: jpliew
 title: "Getting to Know the (STMB) - Tie Points"
 layout: guide
+post-card-type: article
 lang: en
+description: Tie points, pinouts and layout of the (STMB).
 contents:
 - Tie Points
 ---

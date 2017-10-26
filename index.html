@@ -1,39 +1,74 @@
 ---
+layout:     default
+title:      WngLMng's Blog
+subtitle:   嗨，我是王立明，一名来自黑龙江省鹤岗市的男生。<br/>现于无线生活（北京），从事互联网开发工作。
 ---
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="1; url=/en/begin">
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="/img/icon/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/img/icon/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="/img/icon/manifest.json">
-        <link rel="mask-icon" href="/img/icon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="/img/icon/favicon.ico">
-        <meta name="msapplication-config" content="/img/icon/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <meta property="og:url" content="{{ site.url }}" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="{{ site.title | replace: site.stmb_key, site.stmb }}" />
-        <meta property="og:description" content="{{ site.description | replace: site.stmb_key, site.stmb }}" />
-        <meta property="og:image" content="{{ site.image }}" />
-        <meta property="fb:app_id" content="{{ site.facebook_app_id }}"/>
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@{{ site.twitter_username }}">
-        <meta name="twitter:title" content="{{ site.title | replace: site.stmb_key, site.stmb }}">
-        <meta name="twitter:description" content="{{ site.description | replace: site.stmb_key, site.stmb }}">
-        <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-        <meta name="twitter:image" content="{{ site.image }}">
-        <meta name="twitter:domain" content="stemtera.com"> 
-        <meta name="description" content="{{ site.description | replace: site.stmb_key, site.stmb }}">
-        <script type="text/javascript">
-            window.location.href = "/en/begin"
-        </script>
-        <title>{{ site.title | replace: site.stmb_key, site.stmb }} Redirection</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='/en/begin'>(STMB) Beginner's Guide</a>.
-    </body>
-</html>
+
+<link rel="stylesheet" type="text/css" href="{{ "/css/homepage.css" | prepend: site.baseurl }}">
+
+<link rel="stylesheet" type="text/css" href="{{ "/css/fbmain.css" | prepend: site.baseurl }}">
+
+<div class="container--grid home-container">
+    <ul layout="rows top-left" id="MixItUpF13DC5">
+        {% for post in paginator.posts %}
+        {% if post.post-card-type == 'article' %}
+        <li class="mix" style="display: inline-block;" data-bound="">
+            <a href="{{ post.url }}">
+                <div class="card card--article not-visible">
+                    <div class="card-body">
+                        <div class="card-title card-title--articleIfNoImage">{{ post.title }}</div>
+                        <p class="card-description card-description--clamp-14">“{{ post.subtitle }}”</p>
+                        <p class="card-description card-article-preview">
+                            {{ post.content | strip_html | strip_newlines | truncate: 350 }}
+                        </p>
+                        <p></p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div>
+                            <div class="card-tag is-notShownIfHover">@{{ site.author }}</div>
+                            <div class="card-tag is-shownIfHover">
+                                {% for tag in post.tags %}
+                                    {{ tag }} &nbsp;&nbsp;
+                                {% endfor %}
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        {% endif %}
+        {% if post.post-card-type == 'image' %}
+        <li class="mix">
+            <a href="{{ post.url }}">
+    			<div class="card card--article not-visible" >
+    				<div class="card-body">
+    					<div class="card-title">{{ post.title }}</div>
+    					<div class="card-description card-description--clamp-0">
+                            {{ post.content | strip_html | strip_newlines | truncate: 200 }}
+                        </div>
+    				</div>
+    				<div class="card-hero">
+    					<div class="card-image card-image--size-185" data-url="{{ post.card-image }}"></div>
+    				</div>
+    			    <div class="card-footer">
+                        <div class="card-footer-wrapper" layout="row bottom-left">
+                            <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div>
+                            <div class="card-tag is-notShownIfHover">@{{ site.author }}</div>
+                            <div class="card-tag is-shownIfHover">
+                                {% for tag in post.tags %}
+                                    {{ tag }} &nbsp;&nbsp;
+                                {% endfor %}
+                            </div>
+                            <div class="card-logo is-shownIfHover" self="right"></div>
+                        </div>
+    			    </div>
+    		     </div>
+		    </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {% include pagination.html %}
+</div>
