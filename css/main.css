@@ -10,8 +10,9 @@ html {
 
 body { 
 	font-size: 1.1em; 
-	width: var(--body-width);
+/*	width: var(--body-width);
 	margin: 0 auto;
+*/
 } 
 
 h1 { 
@@ -198,9 +199,17 @@ div {
     */
 }
 
+div.content {
+    width: var(--body-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
 div.page-nav {
     margin-top: 1em;
     text-align: center;
+    font-size: small;
 }
 
 div.fullpage {

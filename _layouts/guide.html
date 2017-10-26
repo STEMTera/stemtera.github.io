@@ -6,8 +6,11 @@
 {% include header.html %}
 </head>
 <body>
+    <!-- Menu Nav -->
+    {% include nav.html %}
 
-    <!-- Page Nav -->
+    <div class="content">
+    <!-- Page Nav.html -->
     {% include page_nav.html %}
 
     <!-- Post title if a single page post, variable only working after calling page_nav.html  -->
@@ -18,6 +21,7 @@
     <!-- Contents -->
     {{ content | replace: site.stmb_key , site.stmb }}
 
+    </div>
     <!-- Page Nav -->
     {% include page_nav.html %}
 

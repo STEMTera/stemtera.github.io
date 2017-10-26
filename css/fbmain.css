@@ -107,6 +107,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
 #content {
 	padding-top: 66px;
 }
@@ -139,7 +140,7 @@ body #nav {
 }
 
 #nav div.logo {
-	background-image: url('/public/img/logo.png');
+	background-image: url('/img/logo.svg');
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -494,7 +495,7 @@ body #nav {
 	display: inline-block;
 	width: 20px;
     height: 46px;
-    background-image: url(/public/img/logo.png);
+    background-image: url(/img/logo.svg);
     background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -828,7 +829,7 @@ keyframes inf-bounce {
 .end-mark-icon {
 	width: 80px;
 	height: 80px;
-	background-image: url('/assets/images/logo.png');
+	background-image: url('/imag/logo.svg');
 	background-size: 80px 80px;
 	margin: 0 auto;
 	display:inline-block;
@@ -859,7 +860,7 @@ keyframes inf-bounce {
 		width: 100%;
 		text-align: center;
 	    height: 80px;
-	    background-image: url('/public/img/logo.png');
+	    background-image: url('/img/logo.svg');
 	    background-size: 80px 80px;
 	    background-repeat: no-repeat;
 	    background-position: center;
@@ -1274,7 +1275,6 @@ h1 {
 .support-videos p {
     text-align: center;
 }
-/*# sourceMappingURL=test.css.map */
 
 /*---------- post page ---------*/
 /* http://meyerweb.com/eric/tools/css/reset/
