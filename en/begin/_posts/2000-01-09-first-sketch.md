@@ -2,9 +2,11 @@
 author: jpliew
 title: "First Sketch"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: stemtera_tx_rx_blink.svg 
 lang: en
-description: How to upload Arduino sketch into the (STMB)
+description: Learn how to upload Arduino sketch into the (STMB). Now, everything has been configured properly and you are ready to upload your first sketch. The quickest way to try your first sketch is to run the `Blink` example. Click File -> Examples -> 01.Basics -> Blink. The `Blink` sketch will be loaded into the Arduino IDE.
+
 contents:
 - Uploading Your First Sketch
 ---
