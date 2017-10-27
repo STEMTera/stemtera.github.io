@@ -27,7 +27,9 @@ cover_image: cover.png
                     <div class="card-footer">
                         <div class="card-footer-wrapper" layout="row bottom-left">
                             <!-- <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div> -->
-                            <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
+                            {% if post.author != "jpliew" %}
+                                <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
+                            {% endif %}
                             <div class="card-tag is-notShownIfHover">
                                 {% for tag in post.tags %}
                                     {{ tag }} &nbsp;&nbsp;
@@ -57,7 +59,9 @@ cover_image: cover.png
     			    <div class="card-footer">
                         <div class="card-footer-wrapper" layout="row bottom-left">
                             <!-- <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div> -->
-                            <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
+                            {% if post.author != "jpliew" %}
+                                <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
+                            {% endif %}
                             <div class="card-tag is-shownIfHover">
                                 {% for tag in post.tags %}
                                     {{ tag }} &nbsp;&nbsp;

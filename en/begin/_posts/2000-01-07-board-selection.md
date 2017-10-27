@@ -2,9 +2,10 @@
 author: jpliew
 title: "Board Selection"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: arduino_board_selection.svg
 lang: en
-description: How to select board and port of the (STMB) in Arduino IDE.
+description: Learn how to select board and port of the (STMB) in Arduino IDE. After connecting the (STMB) into the computer, you need to configure the Arduino IDE to know the type of board that you intend to use.
 contents:
 - Board Selection
 - Port Selection
