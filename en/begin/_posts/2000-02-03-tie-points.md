@@ -1,10 +1,12 @@
 ---
 author: jpliew
-title: "Getting to Know the (STMB) - Tie Points"
+title: "(STMB) Tie Points"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: stemtera_breadboard_clip.svg
 lang: en
-description: Tie points, pinouts and layout of the (STMB).
+description: There are a total of 634 tie points in the (STMB), divided into 3 major group. The first group is power rails. There are 2 power rails located on the left and 2 on the right of the (STMB) marked with orange color in the diagram. Each power rail has 30 (1x30) tie points internally connected together in a straight line. These power rails are normally used for distributing the power supply.
+ 
 contents:
 - Tie Points
 ---

@@ -2,10 +2,12 @@
 author: jpliew
 title: "Getting to Know the (STMB)"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: get_to_know_stemtera.svg
 lang: en
 chapter : 2
-description: (STMB) diagram, pinouts, tie points and connection layout.
+description: The (STMB) pinouts, tie points and connection layout can be easily divided into different sections. USB, 12VDC Power In, Port B, Port C & Port D, status LED, power, power rails, digital & analog pins, and tie points.
+
 contents:
 - Hello (STMB)
 ---

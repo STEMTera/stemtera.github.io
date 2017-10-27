@@ -1,15 +1,15 @@
 ---
 author: jpliew
-title: "Introduction to Electronics"
+title: Resistance
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: resistance.svg
 lang: en
-description: What is resistance and how to measure resistance.
+description: What is resistance? Electrons move through a conductor when electric current flows. All material impede flow of electric current to some extend. Some materials hold their electrons very tightly, and due to this, electrons will not move through them very well.
 contents:
 - Resistance
 - How to Measure Resistance
 ---
-
 ## Resistance
 
 ![Resistance](img/resistance.svg){: .three-quarter-w .center }

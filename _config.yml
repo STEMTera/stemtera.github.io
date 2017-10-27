@@ -40,3 +40,5 @@ kramdown:
 github: [metadata]
 paginate: 9
 paginate_path: "pages/:num/"
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']

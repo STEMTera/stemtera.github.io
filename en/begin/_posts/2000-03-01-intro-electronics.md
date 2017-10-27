@@ -2,10 +2,12 @@
 author: jpliew
 title: "Introduction to Electronics"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: electron_flow_in_wire.svg
 lang: en
 chapter : 3 
-description: Introduction to electronics, atoms, electric charge and electricity.
+description: We all like to take things apart, and always find something smaller inside, for example, if we take a small remote controlled car apart, there are motor, gears and wires inside. If we continue breaking the motor into smaller and smaller pieces
+
 contents:
 - Atoms
 - Electric Charge

@@ -1,11 +1,12 @@
 ---
 author: jpliew
-title: "Getting Started with Circuits"
+title: "Exercise 1 - Blinking LED"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: common_led.svg
 lang: en
 chapter : 4 
-description: How to blink an LED using the (STMB).
+description: LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this exercise we will start with one of the easiest LED blinking circuit and learn how to blink an LED using the (STMB).
 contents:
 - Exercise 1 - Blinking LED
 parts:
@@ -18,9 +19,7 @@ breadboard:
  exercise_01_breadboard.svg
 
 ---
-
 ## Exercise 1 - Blinking LED
-
 
 {% include schematic.html %}LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this exercise we will start with one of the easiest LED blinking circuit. 
 
