@@ -20,7 +20,7 @@
 }
 
 body {
-	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/* font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 	font-size: 16px;
 	background-color: #FCFCFC;
 }
@@ -63,7 +63,7 @@ p a {
 
 blockquote {
   color: #4B4F56;
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
   max-width:600px;
   font-size: 24px;
   line-height: 32px;
@@ -287,7 +287,7 @@ body #nav {
 .card-image{
 	width: 100%;
 	height: 140px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -333,7 +333,7 @@ body #nav {
 
 .card-footer {
 	font-size:11px;
-	text-transform: uppercase;
+    text-transform: uppercase;
 	position: absolute;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -1011,7 +1011,7 @@ keyframes inf-bounce {
 }
 .h1--home-title {
 	margin-bottom: 16px;
-	font-family: '-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif';
+	/* font-family: '-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif'; */
 	font-weight: 700;
 }
 h1 {
@@ -1286,7 +1286,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -1328,7 +1328,7 @@ html {
   max-height: 100%; }
 
 body {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-size: 1em;
   color: #666666;
   -webkit-font-smoothing: antialiased; }
@@ -1396,7 +1396,7 @@ em {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: lighter;
   font-size: 1em;
   border-left: 3px solid #BF1827; }
@@ -1424,7 +1424,7 @@ code {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  /* font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; */
   font-size: .9em;
   vertical-align: middle;
   word-wrap: break-word; }
@@ -1435,7 +1435,7 @@ pre {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  /* font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; */
   font-size: .9em;
   font-weight: normal;
   line-height: 1.3em;

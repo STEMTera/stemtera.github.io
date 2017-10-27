@@ -1,13 +1,12 @@
 ---
 author: jpliew
-title: "Automatic Night Lamp"
+title: "Exercise 7 - Automatic Night Lamp Sketch"
 layout: guide
-post-card-type: article
 lang: en
-description: How to upload the Arduino night lamp sketch into the (STMB).
+description: In order to upload the Arduino night lamp sketch into the (STMB), launch Arduino IDE then, click File-> New. A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
+
 contents:
 ---
-
 ### Write and Upload the Automatic Night Lamp Sketch
 
 In order to execute the sketch for this exercise, launch Arduino IDE then 

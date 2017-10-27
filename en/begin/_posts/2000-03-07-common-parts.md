@@ -1,10 +1,11 @@
 ---
 author: jpliew
-title: "Introduction to Electronics"
+title: "Common Electronic Components"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: common_parts.svg
 lang: en
-description: Commonly used electronic components part 1. 
+description: Jumper wire, resistor, capacitor, LED, diode and push button are some of the commonly used electronic components. 
 contents:
 - Common Electronic Components 
 ---

@@ -1,10 +1,12 @@
 ---
 layout:     default
-title: Learn (STMB)  
+title: What do you want to make?  
+description: Collection of articles, tutorials, and resources written for the (STMB).
+author: jpliew
+cover_image: cover.png
 ---
 <link href="//cdn.bootcss.com/flex-layout-attribute/1.0.3/css/flex-layout-attribute.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/fbmain.css">
-
 <link rel="stylesheet" type="text/css" href="{{ "/css/homepage.css" | prepend: site.baseurl }}">
 
 <div class="container--grid home-container">
@@ -15,22 +17,23 @@ title: Learn (STMB)
             <a href="{{ post.url }}">
                 <div class="card card--article not-visible">
                     <div class="card-body">
-                        <div class="card-title card-title--articleIfNoImage">{{ post.title }}</div>
-                        <p class="card-description card-description--clamp-14">“{{ post.subtitle }}”</p>
+                        <div class="card-title card-title--articleIfNoImage">{{ post.title | replace: site.stmb_key , site.stmb }}</div>
+                        <p class="card-description card-description--clamp-14">{{ post.subtitle | replace: site.stmb_key , site.stmb}}</p>
                         <p class="card-description card-article-preview">
-                            {{ post.content | strip_html | strip_newlines | truncate: 350 }}
+                            {{ post.description | strip_html | strip_newlines | truncate: 400 | replace: site.stmb_key , site.stmb}}
                         </p>
                         <p></p>
                     </div>
                     <div class="card-footer">
                         <div class="card-footer-wrapper" layout="row bottom-left">
-                            <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div>
-                            <div class="card-tag is-notShownIfHover">@{{ site.author }}</div>
-                            <div class="card-tag is-shownIfHover">
+                            <!-- <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div> -->
+                            <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
+                            <div class="card-tag is-notShownIfHover">
                                 {% for tag in post.tags %}
                                     {{ tag }} &nbsp;&nbsp;
                                 {% endfor %}
                             </div>
+                            <div class="card-tag is-shownIfHover">View More</div>
                             <div class="card-logo is-shownIfHover" self="right"></div>
                         </div>
                     </div>
@@ -43,23 +46,24 @@ title: Learn (STMB)
             <a href="{{ post.url }}">
     			<div class="card card--article not-visible" >
     				<div class="card-body">
-    					<div class="card-title">{{ post.title }}</div>
+    					<div class="card-title">{{ post.title | replace: site.stmb_key , site.stmb }}</div>
     					<div class="card-description card-description--clamp-0">
-                            {{ post.content | strip_html | strip_newlines | truncate: 200 }}
+                            {{ post.description | strip_html | strip_newlines | truncate: 200 | replace: site.stmb_key , site.stmb }}
                         </div>
     				</div>
     				<div class="card-hero">
-    					<div class="card-image card-image--size-185" data-url="{{ post.card-image }}"></div>
+    					<div class="card-image card-image--size-185" data-url="/{{ post.categories | join: '/' }}/img/{{ post.card-image }}"></div>
     				</div>
     			    <div class="card-footer">
                         <div class="card-footer-wrapper" layout="row bottom-left">
-                            <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div>
-                            <div class="card-tag is-notShownIfHover">@{{ site.author }}</div>
+                            <!-- <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div> -->
+                            <div class="card-tag is-notShownIfHover">@{{ post.author }} &nbsp;&nbsp;</div>
                             <div class="card-tag is-shownIfHover">
                                 {% for tag in post.tags %}
                                     {{ tag }} &nbsp;&nbsp;
                                 {% endfor %}
                             </div>
+                            <div class="card-tag is-shownIfHover">View More</div>
                             <div class="card-logo is-shownIfHover" self="right"></div>
                         </div>
     			    </div>

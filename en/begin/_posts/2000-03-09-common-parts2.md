@@ -1,10 +1,11 @@
 ---
 author: jpliew
-title: "Introduction to Electronics"
+title: "Common Electronic Components - Part 2"
 layout: guide
-post-card-type: article
+post-card-type: image
+card-image: common_parts2.svg 
 lang: en
-description: Commonly used electronic components part 2.
+description: Piezo buzzer, photoresistor, temperature sensor, transistor, potentiometer and DC motors are some of the most commonly used electronic components.
 contents:
 - Common Electronic Components 
 ---
