@@ -10,7 +10,7 @@ html {
 
 body { 
 	font-size: 1.1em; 
-/*	width: var(--body-width);
+/*	width: 72vw;
 	margin: 0 auto;
 */
 } 
@@ -82,49 +82,49 @@ img.right {
 }
 
 img.full-w {
-    width: calc(0.91 * var(--body-width));
+    width: calc(0.91 * 72vw);
 }
 
 img.three-quarter-w-w {
-    width: calc(0.78 * var(--body-width));
+    width: calc(0.78 * 72vw);
 }
 
 img.three-quarter-w {
-	width: calc(0.60 * var(--body-width));
+	width: calc(0.60 * 72vw);
 }
 
 img.half-w{
-    width: calc(0.42 * var(--body-width));
+    width: calc(0.42 * 72vw);
 }
 
 img.quarter-w-w {
-	width: calc(0.31 * var(--body-width));
+	width: calc(0.31 * 72vw);
 }
 
 img.quarter-w {
-	width: calc(0.22 * var(--body-width));
+	width: calc(0.22 * 72vw);
 }
 
 img.eighth-w-w {
-    width: calc(0.16 * var(--body-width));
+    width: calc(0.16 * 72vw);
 }
 
 img.eighth-w {
-	width: calc(0.12 * var(--body-width));
+	width: calc(0.12 * 72vw);
 }
 
 img.sixteenth-w {
-	width: calc(0.06 * var(--body-width));
+	width: calc(0.06 * 72vw);
 }
 
 img.sixteenth-w-w {
-    width: calc(0.04 * var(--body-width));
+    width: calc(0.04 * 72vw);
 }
 
 img.full-h {
     /* border: 1px solid #00ff00; */
 	max-height: 100%;
-    max-width: calc(0.91 * var(--body-width));
+    max-width: calc(0.91 * 72vw);
     height: 88vh; 
 }
 
@@ -138,7 +138,7 @@ img.three-quarter-h {
 
 img.half-h{
 	height: 43vh;
-    max-width: calc(0.91 * var(--body-width));
+    max-width: calc(0.91 * 72vw);
 }
 
 img.quarter-h-h {
@@ -163,12 +163,12 @@ img.textimg {
 
 .common-parts {
     border: 4px solid #bbb;
-    width: calc(0.4 * var(--body-width));
+    width: calc(0.4 * 72vw);
     /* max-height: 22vh; */
 }
 
 img.schematic {
-    width: calc(0.90 * var(--body-width));
+    width: calc(0.90 * 72vw);
     max-height: 50vh;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -178,7 +178,7 @@ img.schematic {
 }
 
 img.breadboard {
-    width: calc(0.91 * var(--body-width));
+    width: calc(0.91 * 72vw);
     height: auto;
     margin: 0;
     max-height: 90vh;
@@ -200,7 +200,7 @@ div {
 }
 
 div.content {
-    width: var(--body-width);
+    width: 72vw;
     margin-left: auto;
     margin-right: auto;
     padding-top: 70px;
@@ -328,7 +328,7 @@ div.part {
 
 div.part img {
     margin-top: 0.2vw;
-    width: calc(0.12 * var(--body-width)); 
+    width: calc(0.12 * 72vw); 
     /*max-height: 10vh;*/
 }
 
@@ -374,7 +374,7 @@ div.partdesc {
     /* margin-top: 60vh; */
     margin-right: auto;
     margin-left: auto;
-    width: calc(0.5 * var(--body-width)); 
+    width: calc(0.5 * 72vw); 
 }
 
 @media screen {
