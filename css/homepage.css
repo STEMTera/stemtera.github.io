@@ -3,7 +3,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .home-container{
-	max-width:1185px;
+	max-width:1201px;
 	margin: 0 auto;
 	min-height: 80vh;
 }
@@ -27,7 +27,7 @@ h1 {
 }
 @media only screen and (max-width: 1225px) {
 	.home-container {
-		max-width: 790px;
+		max-width: 801px;
 	}
 }
 @media only screen and (max-width: 790px) {
