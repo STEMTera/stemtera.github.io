@@ -1,6 +1,6 @@
 ---
 author: jpliew
-title: "Arduino Exercises for the (STMB)"
+title: "Arduino Exercises"
 layout: guide
 post-card-type: image
 card-image: common_led.svg
