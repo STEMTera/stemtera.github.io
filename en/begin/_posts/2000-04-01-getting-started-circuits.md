@@ -1,12 +1,12 @@
 ---
 author: jpliew
-title: "Exercise 1 - Blinking LED"
+title: "Arduino Exercises for the (STMB)"
 layout: guide
 post-card-type: image
 card-image: common_led.svg
 lang: en
 chapter : 4 
-description: LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this exercise we will start with one of the easiest LED blinking circuit and learn how to blink an LED using the (STMB).
+description: LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this Arduino blinking LED exercise, we will start with one of the easiest LED blinking circuit and learn how to blink an LED using the (STMB).
 contents:
 - Exercise 1 - Blinking LED
 parts:
@@ -17,7 +17,6 @@ schematic:
  exercise_01_schematic.svg
 breadboard:
  exercise_01_breadboard.svg
-
 ---
 ## Exercise 1 - Blinking LED
 

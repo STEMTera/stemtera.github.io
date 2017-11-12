@@ -3,7 +3,7 @@ author: jpliew
 title: "Exercise 1 - Blinking LED Sketch"
 layout: guide
 lang: en
-description: In order to upload the Blinking LED sketch to the (STMB), launch Arduino IDE then click File -> New. A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
+description: In order to upload the Arduino Blinking LED sketch to the (STMB), launch Arduino IDE then click File -> New. A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
 
 contents:
 ---

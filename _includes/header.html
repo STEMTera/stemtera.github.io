@@ -2,7 +2,7 @@
 {% assign pagecat=page.categories[1] %}
 {% if mainpage.category %}
     {% if mainpage.lang==page.lang and mainpage.category==pagecat %} 
-        {% assign current_title=mainpage.title | append: ' - ' | append: page.title %}
+        {% assign current_title=page.title | append: ' | ' | append: mainpage.title %}
         {% assign current_github_url=mainpage.github_url %}
         {% assign full_article = mainpage.url %}
         {% assign maincover_image = mainpage.cover_image %}

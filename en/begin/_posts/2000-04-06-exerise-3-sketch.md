@@ -3,7 +3,7 @@ author: jpliew
 title: "Exercise 3 - Knight Rider LED Sketch"
 layout: guide
 lang: en
-description: In order to upload the Arduino Kinght Rider running LED sketch into the (STMB), launch Arduino IDE then Click File-> New. A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
+description: In order to upload the Arduino Knight Rider running LED sketch into the (STMB), launch Arduino IDE then Click File-> New. A new sketch editing window will appear. Copy the whole block of code below and paste it into the new sketch window, overwriting the empty `setup()` and `loop()` that was pre-created. Ensure that the board selected is Arduino Uno and the right COM port is chosen according to "Board Selection" chapter.
 contents:
 ---
 ### Write and Upload the Knight Rider Sketch
