@@ -411,21 +411,27 @@ div.partdesc {
     }
 }
 
-/*
 @media print {
     * {margin: 0;}
     .page-break { height:0; page-break-after:always; margin:0 !important; border-top:none; }
     .footer { display : none; }
-    @page { size: A5 landscape; margin: 10mm 5mm 10mm 5mm; }
+    @page { size: A4 portrait; margin: 10mm 5mm 10mm 5mm; }
     html, body {height: 99%;}
-    div { 
+    /*div { 
         height: 98%;
-    }
+    }*/
     p {
         max-height: 100%;
     }
+
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    div.content {
+        padding-top: 0px !important;
+    }
 }
-*/
 
 blockquote {
 font-family: Georgia, serif;

@@ -1,6 +1,6 @@
 {% if called %}
     {% if foundcount > 1 %}
-        <div class="page-nav">
+        <div class="page-nav no-print">
         {% if prev_post %}
             <a href="{{ prev_post }}">&#10094; Prev Page</a> |
         {% endif %}
@@ -41,7 +41,7 @@
             {% assign prev_post = urls[prev] %}
             {% assign next_post = urls[next] %}
         {% endif %}
-        <div class="page-nav">
+        <div class="page-nav no-print">
         {% if prev_post %}
             <a href="{{ prev_post }}">&#10094; Prev Page</a> | 
         {% endif %}
