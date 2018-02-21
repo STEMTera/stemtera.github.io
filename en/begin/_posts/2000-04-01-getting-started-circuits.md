@@ -10,7 +10,7 @@ description: LEDs (light-emitting diodes) are small and energy efficient lights 
 contents:
 - Exercise 1 - Blinking LED
 parts:
- RES_330R: 1
+ RES_220R: 1
  LED_RED: 1
  JUMPER_WIRE: 2
 schematic:
@@ -22,7 +22,7 @@ breadboard:
 
 {% include schematic.html %}LEDs (light-emitting diodes) are small and energy efficient lights that are used in many applications. In this exercise we will start with one of the easiest LED blinking circuit. 
 
-In this excercise, PIN3 is used to drive the LED on and off. The 330Ω resistor act as a current limiter to limit the current flowing through the LED. Depending on the specifications, LEDs need about 8mA to 20mA of current to light up.
+In this excercise, PIN3 is used to drive the LED on and off. The 220Ω resistor act as a current limiter to limit the current flowing through the LED. Depending on the specifications, LEDs need about 8mA to 20mA of current to light up.
 
 <div style="clear:both; height:0;"></div>
 
@@ -30,7 +30,7 @@ In this excercise, PIN3 is used to drive the LED on and off. The 330Ω resistor
 
 1. Connect a JUMPER WIRE to GND and 33J.
 2. Connect a JUMPER WIRE to PIN3 and 38J.
-3. Connect a 330Ω RESISTOR to 34H and 38H.
+3. Connect a 220Ω RESISTOR to 34H and 38H.
 4. Connect the anode (longer) pin of the RED LED to 34G and cathode (shorter) pin to 33G.
 {: .connections }
 
@@ -63,7 +63,7 @@ Click ![arduino_ide_upload button](img/arduino_ide_upload_icon.svg){: .sixteenth
 
 ### Understanding the Blinking LED Sketch
 
-From the circuit, we know that PIN3 of the (STMB) is connected to the 330Ω resistor and the Red LED. In order to turn on the LED, we need to instruct the (STMB) to set PIN3 to **OUTPUT** in the `setup()` function.
+From the circuit, we know that PIN3 of the (STMB) is connected to the 220Ω resistor and the Red LED. In order to turn on the LED, we need to instruct the (STMB) to set PIN3 to **OUTPUT** in the `setup()` function.
 
 `pinMode(3, OUTPUT);`
 
