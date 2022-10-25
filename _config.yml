@@ -18,8 +18,8 @@ google_analytics_key: UA-84604008-5
 twitter_username: stemtera
 facebook_app_id: 1213473132073226
 domain: stemtera.com
-url: http://learn.stemtera.com
-image: http://learn.stemtera.com/img/banner.jpg
+url: https://learn.stemtera.com
+image: https://learn.stemtera.com/img/banner.jpg
 img_path: /img
 
 ### template colors, used site-wide via css ###
