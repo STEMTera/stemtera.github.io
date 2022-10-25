@@ -1,10 +1,10 @@
 <div class="parts-container">
 <div class="part-title">
-<img src="/img/parts/part_title.svg">
+<img src="/img/parts/part_title.svg" alt="Part Title">
 </div>
 {% for part in page.parts %}
 <div class="part">
-<img src="/img/parts/{{part[0]}}.svg"><span class="qty">x{{part[1]}}</span>
+<img src="/img/parts/{{part[0]}}.svg" alt="{{part[0]}}"><span class="qty">x{{part[1]}}</span>
 </div>
 {% endfor %}
 </div>

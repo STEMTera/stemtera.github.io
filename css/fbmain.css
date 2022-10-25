@@ -58,7 +58,7 @@ strong {
 	font-weight: 500;
 }
 p a {
-	color:#4080FF;
+	color:#003FBD;
 }
 
 blockquote {
@@ -144,7 +144,7 @@ body #nav {
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
 	background-position: left center;
-	color: #90949C;
+	color: #555555;
 	float: left;
 	padding: 0 0 0 42px;
 	font-weight: 200;
@@ -163,10 +163,10 @@ body #nav {
 
 #nav div.item {
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 14px;
 	text-transform: uppercase;
 	margin: 0px 32px 0 0;
-	color:#90949C;
+	color:#555555;
 	-webkit-user-select: none;
 }
 #nav div.item a {
@@ -233,7 +233,7 @@ body #nav {
 }
 
 .button--active{
-    background-color: #4080FF;
+    background-color: #0041C2;
     color:white;
 }
 
@@ -1330,7 +1330,7 @@ html {
 body {
   /* font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-size: 1em;
-  color: #666666;
+  color: #333333;
   -webkit-font-smoothing: antialiased; }
 
 ::-moz-selection {
